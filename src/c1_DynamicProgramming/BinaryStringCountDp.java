@@ -6,7 +6,8 @@ public class BinaryStringCountDp {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Binary String Count :");
-		int n = sc.nextInt();
+		// int n = sc.nextInt();
+		int n = 5;
 		int dp0[] = new int[n + 1];
 		int dp1[] = new int[n + 1];
 		dp0[0] = 0;

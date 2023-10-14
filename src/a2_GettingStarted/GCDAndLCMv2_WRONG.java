@@ -15,6 +15,7 @@ public class GCDAndLCMv2_WRONG {
 			n1 = n2;
 			n2 = rem;
 		}
+		// Now the Value of n1 & n2 Get Changed, This Value get Changed It is called Value By Reference
 
 		int gcd = n2;
 		int lcm = (n1 * n2) / gcd;
