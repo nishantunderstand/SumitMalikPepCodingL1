@@ -1,10 +1,9 @@
 package a2_GettingStarted;
 
 public class GCDAndLCM {
-
 	public static void main(String[] args) {
-		int n1 = 24;
-		int n2 = 36;
+		int n1 = 6;
+		int n2 = 14;
 		int on1 = n1;
 		int on2 = n2;
 		while (n1 % n2 != 0) {
@@ -18,5 +17,4 @@ public class GCDAndLCM {
 		System.out.println("LCM :" + lcm);
 
 	}
-
 }
