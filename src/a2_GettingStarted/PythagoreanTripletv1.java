@@ -1,6 +1,6 @@
 package a2_GettingStarted;
 
-public class PythagorenTriplets {
+public class PythagoreanTripletv1 {
 
 	public static void main(String[] args) {
 		int a = 5;

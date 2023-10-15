@@ -2,7 +2,7 @@ package a5b_Array;
 
 import java.util.Scanner;
 
-public class ArrayBarChartSM {
+public class ArrayBarChartSummitMalik {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Bar Chart");

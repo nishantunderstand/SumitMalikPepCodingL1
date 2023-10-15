@@ -27,6 +27,7 @@ public class Array {
 		}
 
 		// To access First element or Last element, Will it take same time or different?
+		// Same As it Implemenent Marker Interface
 
 		int[] two = one;
 		two[3] = 33;

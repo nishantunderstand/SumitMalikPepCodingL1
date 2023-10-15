@@ -12,8 +12,8 @@ public class ArrayBarChart {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = scn.nextInt();
 		}
-		// BarChart(arr);
-		InvertedBarChart(arr);
+		BarChart(arr);
+		InvertedBarChart(arr); // Vertical
 		scn.close();
 	}
 
