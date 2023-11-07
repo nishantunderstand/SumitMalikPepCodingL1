@@ -13,18 +13,8 @@ public class ArrayBarChart {
 			arr[i] = scn.nextInt();
 		}
 		BarChart(arr);
-		InvertedBarChart(arr); // Vertical
-		scn.close();
-	}
 
-	private static void InvertedBarChart(int[] arr) {
-		int max = arr[0];
-		for (int i = 0; i < arr.length - 1; i++) {
-			if (arr[i] > max) {
-				max = arr[i];
-			}
-		}
-		System.out.println(max);
+		scn.close();
 	}
 
 	private static void BarChart(int[] arr) {
