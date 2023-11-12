@@ -21,6 +21,7 @@ public class ArrayReverse {
 	private static void display(int[] arr) {
 		for (int i : arr) {
 			System.out.print(i + "\t");
+
 		}
 	}
 
