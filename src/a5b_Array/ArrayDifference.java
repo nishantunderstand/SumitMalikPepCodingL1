@@ -12,6 +12,7 @@ public class ArrayDifference {
 		for (int i = 0; i < n2; i++) {
 			arr2[i] = sc.nextInt();
 		}
+
 		System.out.println("Smaller Array :");
 		int n1 = sc.nextInt();
 		int arr1[] = new int[n1];

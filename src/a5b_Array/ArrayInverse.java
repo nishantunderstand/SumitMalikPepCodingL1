@@ -11,14 +11,16 @@ public class ArrayInverse {
 		System.out.println(Arrays.toString(arr));
 		while (op < arr.length) {
 			od = arr[op];
-			System.out.println("od" + od);
+			System.out.println("od : " + od);
 			int id = op;
 			int ip = od;
 			arr[ip] = id;
 			op++;
 		}
 		System.out.println(Arrays.toString(arr));
-
 	}
+	/*
+	 * Try to Manipulate in same array. That is wrong.
+	 */
 
 }

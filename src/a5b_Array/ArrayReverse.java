@@ -3,13 +3,9 @@ package a5b_Array;
 import java.util.Scanner;
 
 public class ArrayReverse {
-
 	public static void main(String[] args) {
-
 		Scanner scn = new Scanner(System.in);
-
 		int arr[] = { 1, 2, 3, 4, 5 };
-
 		System.out.println("Your Entered Array :");
 		display(arr);
 		reverse(arr);
@@ -21,7 +17,6 @@ public class ArrayReverse {
 	private static void display(int[] arr) {
 		for (int i : arr) {
 			System.out.print(i + "\t");
-
 		}
 	}
 
