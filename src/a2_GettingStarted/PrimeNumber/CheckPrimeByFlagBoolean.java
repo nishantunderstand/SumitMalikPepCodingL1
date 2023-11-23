@@ -1,4 +1,4 @@
-package a2_GettingStarted;
+package a2_GettingStarted.PrimeNumber;
 
 public class CheckPrimeByFlagBoolean {
 	public static void main(String[] args) {

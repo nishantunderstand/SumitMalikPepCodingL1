@@ -1,4 +1,4 @@
-package a2_GettingStarted;
+package a2_GettingStarted.PrimeNumber;
 
 import java.util.Scanner;
 
