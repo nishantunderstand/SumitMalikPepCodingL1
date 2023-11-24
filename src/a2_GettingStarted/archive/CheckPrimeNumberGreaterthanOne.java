@@ -1,8 +1,8 @@
-package a2_GettingStarted.PrimeNumber;
+package a2_GettingStarted.archive;
 
 import java.util.Scanner;
 
-public class CheckPrimeByCount {
+public class CheckPrimeNumberGreaterthanOne {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -10,14 +10,14 @@ public class CheckPrimeByCount {
 		System.out.println("Enter Your Number :");
 		int num = scanner.nextInt();
 
-		int fact = 0;
-		for (int div = 1; div <= num; div++) {
+		boolean flag = true;
+		for (int div = 2; div < num; div++) {
 			if (num % div == 0) {
-				fact++;
+				flag = false;
+				break;
 			}
 		}
-		System.out.println("Total No of Factor : " + fact);
-		if (fact == 2) {
+		if (flag == true && num >= 1) {
 			System.out.println(num + " is prime");
 		} else {
 			System.out.println(num + " is not prime");

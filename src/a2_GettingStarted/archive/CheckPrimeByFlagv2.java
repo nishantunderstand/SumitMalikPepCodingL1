@@ -1,4 +1,4 @@
-package a2_GettingStarted.PrimeNumber;
+package a2_GettingStarted.archive;
 
 public class CheckPrimeByFlagv2 {
 	public static void main(String[] args) {
