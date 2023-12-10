@@ -9,6 +9,7 @@ public class NumberDescPrint {
 
 		System.out.print("Enter the Number : ");
 		int n = sc.nextInt();
+
 		PrintDesc(n);
 		sc.close();
 
@@ -21,6 +22,7 @@ public class NumberDescPrint {
 
 		System.out.println(n);
 		PrintDesc(n - 1);
+		// System.out.println(n); // Ascending Order
 	}
 
 }

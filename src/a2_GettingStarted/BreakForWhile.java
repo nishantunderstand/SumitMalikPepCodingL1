@@ -1,6 +1,6 @@
 package a2_GettingStarted;
 
-public class _Pratice {
+public class BreakForWhile {
 	public static void main(String[] args) {
 		BreakWhile(5);
 		BreakFor(5);

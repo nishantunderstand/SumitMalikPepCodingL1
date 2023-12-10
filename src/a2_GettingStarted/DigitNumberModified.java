@@ -1,5 +1,8 @@
 package a2_GettingStarted;
 
+/*
+ * Biggest Question : Apply Condition on which one ?
+ */
 public class DigitNumberModified {
 	public static void main(String[] args) {
 		int n = 500;
@@ -15,9 +18,7 @@ public class DigitNumberModified {
 			System.out.println(q);
 			n = n % div;
 			div = div / 10;
-
 		}
-
 	}
 
 }
