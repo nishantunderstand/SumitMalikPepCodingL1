@@ -16,7 +16,7 @@ public class DigitFrequency {
 			num = num / 10;
 
 		}
-		System.out.println("Count of " + occ + "is " + count);
+		System.out.println("Count of " + occ + " is :" + count);
 
 	}
 
