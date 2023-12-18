@@ -7,15 +7,7 @@ public class ArrayReverseBySwap {
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the Array Length :");
-		int n = sc.nextInt();
-		int arr[] = new int[n];
-		System.out.println("Enter the Values for Array :");
-		for(int i=0;i<arr.length;i++)
-		{
-			arr[i]=sc.nextInt();
-		}
-		System.out.println("Your Entered Arrays : "+Arrays.toString(arr));
+		int[] arr = { 1, 2, 3, 4, 5 };
 		ArrayReverseBySwap(arr);
 		sc.close();
 	}

@@ -38,7 +38,8 @@ public class ArrayMax {
 // Incorrect Approach
 /*
  * 
- * private static void maxOfArray(int[] arr, int idx) { // TODO Auto-generated
+ * private static void maxOfArray(int[] arr, int idx) {
+ * 
  * method stub if(arr[idx]==arr.length) { System.out.println("Max of Array");
  * return; }
  * 
@@ -47,9 +48,6 @@ public class ArrayMax {
  * int max = arr[0]; maxOfArray(arr,idx+1);
  * 
  * }
- * 
- * 
- * 
  * 
  * }
  * 
