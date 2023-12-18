@@ -3,7 +3,7 @@ package b1_RecursionSumitMalik;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayFirstIndex {
+public class ArrayFirstIndexIterative {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -16,31 +16,19 @@ public class ArrayFirstIndex {
 			arr[i] = sc.nextInt();
 		}
 
-		System.out.println("Your Entered Arrays : " + Arrays.toString(arr));
-	
-		
 		System.out.println("Enter the Data to Find Occurence in the Array :");
 		int data = sc.nextInt();
-		int firstIndex = ArrayFirstIndex(arr,0,data);
-		System.out.println("Array First Index "+data+"="+firstIndex);
+		System.out.println("Your Entered Arrays : " + Arrays.toString(arr));
+		int i = 0;
+		while (i < arr.length) {
+			if (arr[i] == data) {
+				System.out.print(i);
+				break;
+			}
+			i++;
+		}
+
 		sc.close();
 	}
 
-	private static int ArrayFirstIndex(int[] arr, int idx, int data) {
-	
-		if(idx == arr.length)
-		{
-			return -1;
-		}
-		
-		int fisma = ArrayFirstIndex(arr,idx+1,data);
-		if(arr[idx]==data)
-		{
-			return idx;
-		}
-		else {
-			return fisma;
-		}
-		
-	}
 }
