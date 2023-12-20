@@ -1,16 +1,15 @@
-package b1_RecursionSumitMalik;
+package b2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayFirstIndexRecursive {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int arr[] = { -22, -1, -1, -1, -2, -2, -2, -2, -1, -9, -9 };
-		int data = -9;
+		int arr[] = { 2, 2, 2, 2 };
+		int data = 2;
 		int firstIndex = ArrayFirstIndex(arr, 0, data);
-		System.out.println(Arrays.toString(arr));
-		System.out.println(arr.length);
+		// System.out.println(Arrays.toString(arr));
+		// System.out.println(arr.length);
 		System.out.println("Array First Index of " + data + " is : " + (firstIndex));
 		sc.close();
 	}

@@ -7,7 +7,8 @@ public class SubSequencePrint {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your String :");
 
-		String str = sc.nextLine();
+		// String str = sc.nextLine();
+		String str = "Hello";
 
 		ArrayListSubSequencePrint(str, "");
 		sc.close();

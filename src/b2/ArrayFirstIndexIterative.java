@@ -1,4 +1,4 @@
-package b1_RecursionSumitMalik;
+package b2;
 
 import java.util.Arrays;
 import java.util.Scanner;

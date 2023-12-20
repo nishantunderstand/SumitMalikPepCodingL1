@@ -23,6 +23,7 @@ public class ArrayMax {
 		// Stop the program when it Reach Last Index
 		if (idx == arr.length - 1) {
 			return arr[idx];
+			// Then the last element is the largest element.
 		}
 		int maxInArr = maxOfArray(arr, idx + 1);
 
