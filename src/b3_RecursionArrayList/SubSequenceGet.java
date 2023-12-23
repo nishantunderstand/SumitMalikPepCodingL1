@@ -1,25 +1,15 @@
 package b3_RecursionArrayList;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class SubSequenceGet {
 	public static void main(String[] args) {
-
-		Scanner scanner = new Scanner(System.in);
-
-		System.out.println("Enter Your String:");
-		String string = scanner.nextLine();
-
-		System.out.println("Your Entered String :" + string);
-
+		String string = "abc";
 		ArrayList<String> result = SubSequenceGet(string);
+		System.out.println(result);
 
-		for (String s : result) {
-			System.out.println("SubSequence :" + s);
-		}
 
-		scanner.close();
+
 	}
 
 	private static ArrayList<String> SubSequenceGet(String str) {
@@ -34,8 +24,13 @@ public class SubSequenceGet {
 		ArrayList<String> rres = SubSequenceGet(ros);
 
 		ArrayList<String> mres = new ArrayList<>();
+
 		for (String i : rres) {
 			mres.add("" + i);
+
+		}
+		for (String i : rres) {
+
 			mres.add(curr + i);
 		}
 		return mres;
@@ -44,7 +39,14 @@ public class SubSequenceGet {
 }
 
 /*
- * private static ArrayList<String> ArrayListSubSequenceGet(String string) {
+ * 
+ * 
+ * // There are 2 way of writting it, When result is presented in [, c, b, bc,
+ * a, ac, ab, abc] That's means it is an arraylist
+ * 
+ * Writting Approach 2 for( String i:rres) { mres.add("" + i); mres.add(curr +
+ * i); }* private static ArrayList<String> ArrayListSubSequenceGet(String
+ * string) {
  * 
  * if (string.length() == 0) { ArrayList<String> breStrings = new ArrayList<>();
  * breStrings.add(""); return breStrings; }
