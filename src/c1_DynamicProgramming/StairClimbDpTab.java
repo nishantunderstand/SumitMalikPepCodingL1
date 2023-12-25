@@ -7,8 +7,10 @@ public class StairClimbDpTab {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number:");
 		int n = sc.nextInt();
-		int cp = StairClimbDpTab(n);
-		System.out.println("Stair Path Combination :" + cp);
+
+		int cpTab = StairClimbDpTab(n);
+		System.out.println("Stair Path Combination :" + cpTab);
+
 		sc.close();
 	}
 

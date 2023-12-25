@@ -7,9 +7,6 @@ public class SubSequenceGet {
 		String string = "abc";
 		ArrayList<String> result = SubSequenceGet(string);
 		System.out.println(result);
-
-
-
 	}
 
 	private static ArrayList<String> SubSequenceGet(String str) {

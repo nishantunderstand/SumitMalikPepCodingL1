@@ -15,12 +15,13 @@ public class StairPathGet {
 	}
 
 	private static ArrayList<String> GetStairPath(int n) {
+		ArrayList<String> bres = new ArrayList<>(); // Also Correct
 		if (n == 0) {
-			ArrayList<String> bres = new ArrayList<>();
+			// ArrayList<String> bres = new ArrayList<>();
 			bres.add("");
 			return bres;
 		} else if (n < 0) {
-			ArrayList<String> bres = new ArrayList<>();
+			// ArrayList<String> bres = new ArrayList<>();
 			return bres;
 		}
 
@@ -28,6 +29,8 @@ public class StairPathGet {
 		ArrayList<String> path2 = GetStairPath(n - 2);
 		ArrayList<String> path3 = GetStairPath(n - 3);
 		ArrayList<String> paths = new ArrayList<>();
+		// Why did we create paths, As we need to merge the results.
+		// That's the only way to merge it.
 
 		for (String i : path1) {
 			paths.add(1 + i);
@@ -43,14 +46,3 @@ public class StairPathGet {
 
 }
 
-/*
- * if (n == 0) { ArrayList<String> bres = new ArrayList<>(); bres.add("");
- * return bres; } else (n < 0) { ArrayList<String> bres = new ArrayList<>();
- * return bres; }
- * 
- * ArrayList<String> path1 = GetStairPath(n - 1); //<-- Error State
- * ArrayList<String> path2 = GetStairPath(n - 2); ArrayList<String> path3 =
- * GetStairPath(n - 3);
- * 
- * 
- */
