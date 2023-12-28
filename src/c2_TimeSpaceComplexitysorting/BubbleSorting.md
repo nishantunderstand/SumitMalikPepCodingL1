@@ -14,3 +14,7 @@ This algorithm is not suitable for large data sets as its average and worst-case
 - This process is then continued to find the second largest and place it and so on until the data is sorted.
 
 
+
+
+5 9 8 2 1
+4 : 0 to 4 | 1 to 4

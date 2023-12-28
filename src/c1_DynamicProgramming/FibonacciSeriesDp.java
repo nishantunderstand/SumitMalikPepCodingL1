@@ -1,15 +1,14 @@
 package c1_DynamicProgramming;
 
-import java.util.Scanner;
-
 public class FibonacciSeriesDp {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter your Number :");
-		int n = scanner.nextInt();
+		// Scanner scanner = new Scanner(System.in);
+		// System.out.println("Enter your Number :");
+		// int n = scanner.nextInt();
+		int n = 10;
 		int ans = FibonacciSeriesByDp(n, new int[n + 1]);
 		System.out.println("Fibonacci :" + ans);
-		scanner.close();
+		// scanner.close();
 	}
 
 	private static int FibonacciSeriesByDp(int n, int[] qb) {

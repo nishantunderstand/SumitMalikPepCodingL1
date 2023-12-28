@@ -1,9 +1,9 @@
 package c2_TimeSpaceComplexitysorting;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class BubbleSorting {
+	//
 	public static void swap(int[] arr, int i, int j) {
 		System.out.println("Swapping " + arr[i] + " and " + arr[j]);
 		int temp = arr[i];
@@ -21,27 +21,28 @@ public class BubbleSorting {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Sorting:");
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int arr[] = new int[n];
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
-		}
+		/*
+		 * System.out.println("Sorting:"); Scanner sc = new Scanner(System.in); int n =
+		 * sc.nextInt(); int arr[] = new int[n]; for (int i = 0; i < arr.length; i++) {
+		 * arr[i] = sc.nextInt(); }
+		 */
+		int[] arr = { 5, 9, 8, 2, 1 };
+		System.out.println(arr.length);
 		System.out.println("Arrays:" + Arrays.toString(arr));
 		BubbleSorting(arr);
 		System.out.println("Arrays:" + Arrays.toString(arr));
-		sc.close();
+		// sc.close();
 	}
 
+	// Unable to understand For loops
 	private static void BubbleSorting(int[] arr) {
-		for (int i = 1; i < arr.length; i++) {
-			for (int j = 0; j < arr.length - i; j++) {
+		for (int itr = 1; itr <= arr.length - 1; itr++) {
+			for (int j = 0; j < arr.length - itr; j++) {
 				if (isSmaller(arr, j + 1, j)) {
 					swap(arr, j + 1, j);
 				}
 			}
-			System.out.println("Arrays " + i + " : " + Arrays.toString(arr));
+			// System.out.println("Arrays " + itr + " : " + Arrays.toString(arr));
 		}
 	}
 }
