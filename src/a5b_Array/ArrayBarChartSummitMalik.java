@@ -24,6 +24,7 @@ public class ArrayBarChartSummitMalik {
 			}
 			System.out.println();
 		}
-		scn.close();
+
+
 	}
 }

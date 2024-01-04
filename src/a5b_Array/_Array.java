@@ -7,6 +7,7 @@ public class _Array {
 		for (int i : arr) {
 			System.out.print(i + "\t");
 		}
+
 	}
 
 }

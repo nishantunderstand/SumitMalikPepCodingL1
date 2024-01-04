@@ -8,7 +8,8 @@ public class ArrayRotateSM {
 
 		Scanner scn = new Scanner(System.in);
 		int arr[] = { 1, 2, 3, 4, 5 };
-		int k = 11222;
+		int k = 2;
+		System.out.println("Input k :" + k);
 		System.out.println("Your Entered Array :");
 		display(arr);
 		rotate(arr, k);

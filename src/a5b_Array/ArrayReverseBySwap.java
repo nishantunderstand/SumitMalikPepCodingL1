@@ -14,7 +14,7 @@ public class ArrayReverseBySwap {
 
 	private static void ArrayReverseBySwap(int[] arr) {
 		/*
-		 * int i = arr[0]; int j = arr[arr.length-1]; 
+		 * int i = arr[0]; int j = arr[arr.length-1];
 		 */
 		// Pointer have to 1st Place
 		int i = 0;
