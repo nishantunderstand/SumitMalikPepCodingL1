@@ -1,3 +1,4 @@
+Syned with Github.
 Put similar code at one place.
 For Example :
 GetMazePath , PrintMazePath
