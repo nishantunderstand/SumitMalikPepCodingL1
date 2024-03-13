@@ -2,7 +2,7 @@ package a3a_StarPatternQuestion;
 
 import java.util.Scanner;
 
-public class _Stair {
+public class Stair {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -17,7 +17,8 @@ public class _Stair {
 
 /*
  * 
- * 1. Check Assumption 2. println can make program wrong 3. Check For Equality
+ * 1. Check Assumption 
+ * 2. println can make program wrong 3. Check For Equality
  * Condition.
  * 
  */
