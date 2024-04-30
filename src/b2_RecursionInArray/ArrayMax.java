@@ -1,9 +1,9 @@
-package b2;
+package b2_RecursionInArray;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayMin {
+public class ArrayMax {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -14,22 +14,23 @@ public class ArrayMin {
 			arr[i] = sc.nextInt();
 		}
 		System.out.println("Your Entered Arrays : " + Arrays.toString(arr));
-		int ans = minOfArray(arr, 0);
+		int ans = maxOfArray(arr, 0);
 		System.out.println("Max in Array :" + ans);
 		sc.close();
 	}
 
-	private static int minOfArray(int[] arr, int idx) {
+	private static int maxOfArray(int[] arr, int idx) {
 		// Stop the program when it Reach Last Index
 		if (idx == arr.length - 1) {
 			return arr[idx];
+			// Then the last element is the largest element.
 		}
-		int minInArr = minOfArray(arr, idx + 1);
+		int maxInArr = maxOfArray(arr, idx + 1);
 
-		if (arr[idx] < minInArr) {
+		if (arr[idx] > maxInArr) {
 			return arr[idx];
 		} else {
-			return minInArr;
+			return maxInArr;
 		}
 	}
 
@@ -38,7 +39,8 @@ public class ArrayMin {
 // Incorrect Approach
 /*
  * 
- * private static void maxOfArray(int[] arr, int idx) { // TODO Auto-generated
+ * private static void maxOfArray(int[] arr, int idx) {
+ * 
  * method stub if(arr[idx]==arr.length) { System.out.println("Max of Array");
  * return; }
  * 
@@ -47,9 +49,6 @@ public class ArrayMin {
  * int max = arr[0]; maxOfArray(arr,idx+1);
  * 
  * }
- * 
- * 
- * 
  * 
  * }
  * 

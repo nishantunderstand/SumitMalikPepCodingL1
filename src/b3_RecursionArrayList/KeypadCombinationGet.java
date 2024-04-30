@@ -3,6 +3,11 @@ package b3_RecursionArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import a7a_StringSumitMalik.StringToggleCase;
+/**
+ * 
+ * {@link StringToggleCase Revise it}
+ */
 public class KeypadCombinationGet {
 	public static String[] codes = { ".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "xyz" };
 	// Can we use Enum Instead of this ?
@@ -47,6 +52,7 @@ public class KeypadCombinationGet {
 		String ros = str.substring(1);
 		ArrayList<String> rres = getKPC(ros);
 		ArrayList<String> mres = new ArrayList<>();
+		// How to Convert String to Integer , String --> Integer.
 		String codeforch = codes[ch - '0'];
 		for (int i = 0; i < codeforch.length(); i++) {
 			char chcode = codeforch.charAt(i);

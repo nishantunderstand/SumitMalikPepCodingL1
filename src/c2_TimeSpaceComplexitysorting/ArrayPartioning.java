@@ -3,6 +3,13 @@ package c2_TimeSpaceComplexitysorting;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Dutch National Flag 
+ * Application 
+ * {@link Sort01}
+ * {@link Sort012} 
+ * {@link Sort012}
+ */
 public class ArrayPartioning {
 	public static void partition(int[] arr, int pivot) {
 		// 0 to j-1 -> Element <=pivot

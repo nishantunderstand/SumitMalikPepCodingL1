@@ -1,6 +1,11 @@
 package d_OopsSwapPepcoding;
 
+/**
+ * 
+ * {@link OopsSwapClass}
+ */
 public class OopsSwapGameProp {
+	
 	public static class Person {
 		int age;
 		String name;

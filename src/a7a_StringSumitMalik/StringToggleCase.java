@@ -1,7 +1,10 @@
 package a7a_StringSumitMalik;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * {@link }
+ */
 public class StringToggleCase {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

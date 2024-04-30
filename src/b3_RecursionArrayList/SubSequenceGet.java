@@ -2,6 +2,13 @@ package b3_RecursionArrayList;
 
 import java.util.ArrayList;
 
+/**
+	curr Current String
+	ros Rest of String
+	mres My ResultSet
+	rres Rest of ResultSet
+	bres Blank Rest of String	
+ */
 public class SubSequenceGet {
 	public static void main(String[] args) {
 		String string = "abc";
@@ -10,6 +17,7 @@ public class SubSequenceGet {
 	}
 
 	private static ArrayList<String> SubSequenceGet(String str) {
+		// Base Case 
 		if (str.length() == 0) {
 			ArrayList<String> bres = new ArrayList<String>();
 			bres.add("");
@@ -18,18 +26,22 @@ public class SubSequenceGet {
 
 		String curr = str.substring(0, 1);
 		String ros = str.substring(1);
+		// Recursive Call
 		ArrayList<String> rres = SubSequenceGet(ros);
-
+		// Generating Result
 		ArrayList<String> mres = new ArrayList<>();
-
+		// You can add them in one for loop Or in A Seperate loop your choice.
+		
 		for (String i : rres) {
 			mres.add("" + i);
-
-		}
-		for (String i : rres) {
-
 			mres.add(curr + i);
+
 		}
+		
+		/*
+		 * for (String i : rres) { mres.add(curr + i); }
+		 */
+		
 		return mres;
 	}
 
@@ -38,8 +50,8 @@ public class SubSequenceGet {
 /*
  * 
  * 
- * // There are 2 way of writting it, When result is presented in [, c, b, bc,
- * a, ac, ab, abc] That's means it is an arraylist
+ * // There are 2 way of writting it, When result is presented in [, c, b, bc,a, ac, ab, abc] That's means it is an arraylist
+ * 
  * 
  * Writting Approach 2 for( String i:rres) { mres.add("" + i); mres.add(curr +
  * i); }* private static ArrayList<String> ArrayListSubSequenceGet(String

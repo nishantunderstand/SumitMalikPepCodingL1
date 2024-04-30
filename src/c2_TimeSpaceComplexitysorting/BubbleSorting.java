@@ -35,6 +35,7 @@ public class BubbleSorting {
 	}
 
 	// Unable to understand For loops
+	// Time Complexity Will be O(n*n)
 	private static void BubbleSorting(int[] arr) {
 		for (int itr = 1; itr <= arr.length - 1; itr++) {
 			for (int j = 0; j < arr.length - itr; j++) {

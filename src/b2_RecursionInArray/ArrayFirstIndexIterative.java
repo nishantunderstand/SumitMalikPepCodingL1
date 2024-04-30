@@ -1,4 +1,4 @@
-package b2;
+package b2_RecursionInArray;
 
 import java.util.Arrays;
 import java.util.Scanner;

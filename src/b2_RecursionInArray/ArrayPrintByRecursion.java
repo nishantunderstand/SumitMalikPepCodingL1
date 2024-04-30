@@ -1,4 +1,4 @@
-package b2;
+package b2_RecursionInArray;
 
 public class ArrayPrintByRecursion {
 	public static void main(String[] args) {

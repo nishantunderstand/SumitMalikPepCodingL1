@@ -1,6 +1,20 @@
-package b2;
+package b2_RecursionInArray;
 
 import java.util.Scanner;
+
+/**
+ Why we are returning -1 ? 
+ We want something that is not present in the Program
+ When this program will Fail ? 
+ 1] Empty Array 
+ 2] Data is not Present in the Array
+ 
+ 
+ In any Recursive Function, We need 3 Things
+ 1. Base Case
+ 2. Recursive Call
+ 3. Action, How to Reach to Result ?
+ */
 
 public class ArrayFirstIndexRecursive {
 	public static void main(String[] args) {
@@ -15,10 +29,14 @@ public class ArrayFirstIndexRecursive {
 	}
 
 	private static int ArrayFirstIndex(int[] arr, int idx, int data) {
+		// Base Case
+		// What else we can write in Base Case ? Can we write idx<0 || idx==arr.length ? Guide me
 		if (idx == arr.length) {
 			return -1;
 		}
+		// Call Recursive Function
 		int fisma = ArrayFirstIndex(arr, idx + 1, data);
+		// Perform Action
 		if (arr[idx] == data) {
 			return idx;
 		} else {
@@ -27,25 +45,6 @@ public class ArrayFirstIndexRecursive {
 	}
 }
 
-/*
- * 
- * System.out.print("Enter the Array Length :"); int n = sc.nextInt(); int arr[]
- * = new int[n];
- * 
- * System.out.println("Enter the Values for Array :"); for (int i = 0; i <
- * arr.length; i++) { arr[i] = sc.nextInt(); }
- * 
- * System.out.println("Your Entered Arrays : " + Arrays.toString(arr));
- * 
- * 
- * System.out.println("Enter the Data to Find Occurence in the Array :"); int
- * data = sc.nextInt();
- */
 
-// Why we are returning -1 ?
-// We want something that is not present in the Program
 
-/*
- * When this program will Fail ? 1] Empty Array 2] Data is not Present in the
- * Array
- */
+
