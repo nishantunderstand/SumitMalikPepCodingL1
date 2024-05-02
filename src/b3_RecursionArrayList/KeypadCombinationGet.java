@@ -6,7 +6,7 @@ import java.util.Scanner;
 import a7a_StringSumitMalik.StringToggleCase;
 /**
  * 
- * {@link StringToggleCase Revise it}
+ * {@link StringToggleCase}
  */
 public class KeypadCombinationGet {
 	public static String[] codes = { ".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "xyz" };
@@ -14,8 +14,7 @@ public class KeypadCombinationGet {
 	// This is going to really awesome.
 
 	public static void main(String[] args) {
-		// public static String[] codes = { ".", "abc", "def", "ghi", "jkl", "mno",
-		// "pqrs", "tu", "vwx", "xyz" };
+		//public static final String[] codes = { ".", "abc", "def", "ghi", "jkl", "mno","pqrs", "tu", "vwx", "xyz" };
 		// Why cannot we declare it ?
 		Scanner scanner = new Scanner(System.in);
 
@@ -24,7 +23,7 @@ public class KeypadCombinationGet {
 		 * i++) { System.out.println(i + "->" + codes[i]); }
 		 */
 
-		System.out.println("Enter Your Digit Combination:");
+		//System.out.println("Enter Your Digit Combination:");
 		// String string = scanner.next();
 		String string = "567";
 
@@ -42,18 +41,18 @@ public class KeypadCombinationGet {
 			bres.add("");
 			return bres;
 		}
-
 		// String ch = str.substring(0, 1);
 		// Char ch = str.charAt(0);
 		// char ch = str.charAt(0);
 		// String to Integer '6' Not equal to 6
-
 		char ch = str.charAt(0);
 		String ros = str.substring(1);
 		ArrayList<String> rres = getKPC(ros);
 		ArrayList<String> mres = new ArrayList<>();
 		// How to Convert String to Integer , String --> Integer.
+		//System.out.println("Ch : "+ch);
 		String codeforch = codes[ch - '0'];
+		//System.out.println("Codes for ch Length:"+codeforch.length());
 		for (int i = 0; i < codeforch.length(); i++) {
 			char chcode = codeforch.charAt(i);
 			for (String rstr : rres) {

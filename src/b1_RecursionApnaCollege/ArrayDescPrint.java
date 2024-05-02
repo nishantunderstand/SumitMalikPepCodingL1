@@ -21,7 +21,7 @@ public class ArrayDescPrint {
 			return;
 		}
 
-		// System.out.println(arr[idx]); // Ascending Order
+		// System.out.println(arr[idx]); // Ascending Order 
 		PrintArrayDesc(arr, idx + 1);
 		System.out.println(arr[idx]); // Descending Order
 	}
