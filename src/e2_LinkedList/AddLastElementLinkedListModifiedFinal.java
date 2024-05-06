@@ -2,7 +2,7 @@ package e2_LinkedList;
 
 import java.util.Scanner;
 
-public class AddLastElementLinkedList {
+public class AddLastElementLinkedListModifiedFinal {
 
 	public static class Node {
 		int data;
@@ -10,11 +10,17 @@ public class AddLastElementLinkedList {
 	}
 
 	public static class LinkedList {
-		Node head;
-		Node tail;
-		int size;
+		static Node head;
+		static Node tail;
+		static int size;
 
-		void addElement(int val) {
+		public static void addElement(int val) {
+			// If you declare this method static , 
+			// then you need to make the variable Static, 
+			// otherwise there will be error. 
+			// Got it ?
+			
+			// Common Code
 			Node temp = new Node();
 			temp.data = val;
 			temp.next = null;
@@ -26,6 +32,7 @@ public class AddLastElementLinkedList {
 				tail.next = temp;
 				tail = temp;
 			}
+			// Common Code
 			size++;
 		}
 

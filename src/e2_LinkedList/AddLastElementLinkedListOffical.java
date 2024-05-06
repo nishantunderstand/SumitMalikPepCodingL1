@@ -1,31 +1,41 @@
 package e2_LinkedList;
 
 import java.util.Scanner;
-
-public class AddLastElementLinkedListModified {
-
+/**
+ * Question : Add to Linked List ?
+ * So you need to consider the possibility ?
+ * What if the size is Zero ?
+ * Then how the things will work ?
+ */
+public class AddLastElementLinkedListOffical {
+	//Storage : 4 Byte + 4 Byte => Total 8 Byte
 	public static class Node {
 		int data;
 		Node next;
 	}
 
+	// Can Static Class access Non-Static Member ?
+	// Yes
 	public static class LinkedList {
 		Node head;
 		Node tail;
 		int size;
 
-		public void addElement(LinkedList list, int val) {
+		public void addElement(int val) {
+
+			// Common Code
 			Node temp = new Node();
 			temp.data = val;
 			temp.next = null;
 
-			if (list.size == 0) {
+			if (size == 0) {
 				head = temp;
 				tail = temp;
 			} else {
 				tail.next = temp;
 				tail = temp;
 			}
+			// Common Code
 			size++;
 		}
 
@@ -42,10 +52,10 @@ public class AddLastElementLinkedListModified {
 		System.out.println("Enter Your LinkedList");
 		Scanner sc = new Scanner(System.in);
 		LinkedList list = new LinkedList();
-		list.addElement(list, 20);
-		list.addElement(list, 30);
-		list.addElement(list, 40);
-		list.addElement(list, 50);
+		list.addElement(20);
+		list.addElement(30);
+		list.addElement(40);
+		list.addElement(50);
 		list.display();
 		sc.close();
 
