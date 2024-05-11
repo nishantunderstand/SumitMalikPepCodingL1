@@ -20,7 +20,7 @@ public class ArrayPartioning {
 		while (i < arr.length) {
 			if (arr[i] > pivot) {
 				i++;
-			} else {
+			} else if(arr[i] <= pivot){
 				swap(arr, i, j);
 				i++;
 				j++;
@@ -38,12 +38,16 @@ public class ArrayPartioning {
 	public static void main(String[] args) {
 		System.out.println("Array Partioning:");
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int arr[] = new int[n];
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
-		}
-		int pivot = sc.nextInt();
+		//int n = sc.nextInt();
+		//int arr[] = new int[n];
+		
+		/*
+		 * for (int i = 0; i < arr.length; i++) { arr[i] = sc.nextInt(); }
+		 */
+		
+		//int pivot = sc.nextInt();
+		int pivot = 5;
+		int arr[] = {7,9,4,8,3,6,2,1};
 		partition(arr, pivot);
 		System.out.println("Arrays:" + Arrays.toString(arr));
 
