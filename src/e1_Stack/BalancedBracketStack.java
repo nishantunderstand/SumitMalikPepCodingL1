@@ -19,7 +19,7 @@ public class BalancedBracketStack {
 
 			} else if (ch == ']') {
 
-			} else {// a,b,+,* //<-- Ignore
+			} else { // a,b,+,* //<-- Ignore
 			}
 		}
 
