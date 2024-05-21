@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 /**
  * 
- * {@link resume}
  */
 public class MazePathWithJumpGet {
 	public static void main(String[] args) {

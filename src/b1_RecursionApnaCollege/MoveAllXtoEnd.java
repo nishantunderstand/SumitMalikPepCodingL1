@@ -2,7 +2,7 @@ package b1_RecursionApnaCollege;
 /**
  * aaXXaa
  * aa + XXaa
- * @resume
+ * 
  */
 
 public class MoveAllXtoEnd {
