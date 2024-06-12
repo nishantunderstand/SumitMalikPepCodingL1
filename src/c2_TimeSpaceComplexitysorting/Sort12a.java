@@ -14,8 +14,7 @@ public class Sort12a {
 	public static void main(String[] args) {
 		System.out.println("Sorting 0-1-2:");
 		Scanner sc = new Scanner(System.in);
-
-		int[] arr = new int []{1,1,2,2,0,0,};
+		int[] arr = new int []{1,1,2,2,0,0,1,2,0,2,1};
 		System.out.println("Arrays:" + Arrays.toString(arr));
 		Sort012a(arr);
 		System.out.println("Arrays:" + Arrays.toString(arr));
