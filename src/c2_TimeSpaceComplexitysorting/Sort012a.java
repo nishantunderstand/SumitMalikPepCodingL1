@@ -3,7 +3,7 @@ package c2_TimeSpaceComplexitysorting;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Sort12a {
+public class Sort012a {
 	public static void swap(int[] arr, int i, int j) {
 		System.out.println("Swapping index " + i + " and index " + j);
 		int temp = arr[i];
