@@ -1,0 +1,2366 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PrintPrimitiveDataType",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/_year2024.PrintPrimitiveDataType",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrincipleJava",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a0_Principle.PrincipleJava",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FindSquareRootByBinarySearch",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a0a_CodingBasic.FindSquareRootByBinarySearch",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FindSquareRootByIteratingNumber",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a0a_CodingBasic.FindSquareRootByIteratingNumber",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ForCplusplusCoders",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a1_ForCplusplusCoders.ForCplusplusCoders",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "BenjaminBulb",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.BenjaminBulb",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "BreakForWhile",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.BreakForWhile",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckForPythogramTripletMod",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.CheckForPythogramTripletMod",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrime",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.CheckPrime",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckingDivisorAndDividend",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.CheckingDivisorAndDividend",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CountDigitFinal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.CountDigitFinal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CountString",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.CountString",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CuriousCaseOfBenjaminBulbs",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.CuriousCaseOfBenjaminBulbs",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "DigitNumber",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.DigitNumber",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "DigitNumberModified",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.DigitNumberModified",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Division",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.Division",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeriesIterartion",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.FibonacciSeriesIterartion",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeriesPrintByApnaCollege",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.FibonacciSeriesPrintByApnaCollege",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeriesPrint_a",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.FibonacciSeriesPrint_a",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeriesPrint_c",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.FibonacciSeriesPrint_c",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GCD",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.GCD",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GCDAndLCM",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.GCDAndLCM",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GCDAndLCMv2_WRONG",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.GCDAndLCMv2_WRONG",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GCDAndLCMv3",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.GCDAndLCMv3",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GradingSystem",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.GradingSystem",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GradingSystem2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.GradingSystem2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "InputStringInteger",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.InputStringInteger",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "InputStringIntegerSolution",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.InputStringIntegerSolution",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "InverseNumber",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.InverseNumber",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "IsPrime",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.IsPrime",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "IsPrime_WRONG",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.IsPrime_WRONG",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MaximumOfThreeNumbers",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.MaximumOfThreeNumbers",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberReverse",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.NumberReverse",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberReverse1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.NumberReverse1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberRotate",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.NumberRotate",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberRotate2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.NumberRotate2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrimeFactorization",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.PrimeFactorization",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrimeFactorizationMod",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.PrimeFactorizationMod",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Print",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.Print",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintStar",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.PrintStar",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintZ",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.PrintZ",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PythagoreanTripletv1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.PythagoreanTripletv1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PythagoreanTripletv2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.PythagoreanTripletv2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StoreMultipleNumber",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.StoreMultipleNumber",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByCount",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByCount",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByCount2023",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByCount2023",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByCountOptmize1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByCountOptmize1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByCountRange",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByCountRange",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByCountRangeByUser",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByCountRangeByUser",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByFlagBoolean",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByFlagBoolean",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByFlagRange",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByFlagRange",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByFlagRangeByUser",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByFlagRangeByUser",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByFlagv0",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByFlagv0",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByFlagv1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByFlagv1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByFlagv2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByFlagv2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeByFlagv3",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeByFlagv3",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CheckPrimeNumberGreaterthanOne",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a2_GettingStarted.archive.CheckPrimeNumberGreaterthanOne",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "DiamondPatternPratice",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.DiamondPatternPratice",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern01To6",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern01To6",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern01_RightTriangleStarPattern",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern01_RightTriangleStarPattern",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern02_RightTriangleStarPatternInverted1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern02_RightTriangleStarPatternInverted1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern02_RightTriangleStarPatternInverted1aSummitMalik",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern02_RightTriangleStarPatternInverted1aSummitMalik",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern03Me",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern03Me",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern03Me3StartFromZero",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern03Me3StartFromZero",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern03Me4ReOrderSpSt",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern03Me4ReOrderSpSt",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern03_LeftTriangleStarPattern",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern03_LeftTriangleStarPattern",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern04_LeftTriangleStarPatternInverted",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern04_LeftTriangleStarPatternInverted",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern05_DiamondPattern",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern05_DiamondPattern",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern06",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern06",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern07To10",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern07To10",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern07_DiagonalStar",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern07_DiagonalStar",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern08_ReverseDiagonalStar",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern08_ReverseDiagonalStar",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern09_Cross_MergeDiagonalAndReverseDiagonal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern09_Cross_MergeDiagonalAndReverseDiagonal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern10_HollowDiamnod",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern10_HollowDiamnod",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern11To15",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pattern11To15",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion.Pyramid",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_Stair",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a1_StarPatternQuestion._Stair",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern01",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern01",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern02",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern02",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern02SummitMalik",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern02SummitMalik",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern03Me(1)",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern03Me",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern03Me2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern03Me2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern03Original",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern03Original",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern04",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern04",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern05_Diamond",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern05_Diamond",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern06(1)",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern06",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern07",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern07",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern08",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern08",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern09",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern09",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern10",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Pattern10",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Stair",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion.Stair",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_StarPatternPratice",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion._StarPatternPratice",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern11_RightTriangleStartFromIncrementValues",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern11_RightTriangleStartFromIncrementValues",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern11_RightTriangleStartFromOne",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern11_RightTriangleStartFromOne",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern12",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern12",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern13",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern13",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern14",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern14",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern14New",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern14New",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern15",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern15",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern16Number",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern16Number",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern16Star",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern16Star",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern17",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern17",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern17SM",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern17SM",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern18",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern18",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern19",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern19",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern20SM",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern20SM",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Pattern20WrongButCorrect",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.Pattern20WrongButCorrect",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PraticeNumberPattern",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3b_NumberPatternQuestion.PraticeNumberPattern",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "HeapQuestion",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a4_HeapUnavailable.HeapQuestion",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AnyBase2AnyBase",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5a_Functions.AnyBase2AnyBase",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AnyBase2Decimal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5a_Functions.AnyBase2Decimal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Decimal2AnyBase",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5a_Functions.Decimal2AnyBase",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "DigitFrequency",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5a_Functions.DigitFrequency",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.Array",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayBarChart",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayBarChart",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayBarChartSummitMalik",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayBarChartSummitMalik",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayBinarySearch",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayBinarySearch",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDifference",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayDifference",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayElementFind",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayElementFind",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFirstAndLastIndexBinarySearch",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayFirstAndLastIndexBinarySearch",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayIntro",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayIntro",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInverse",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayInverse",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInverseSM",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayInverseSM",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayLinearSearch",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayLinearSearch",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMax",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayMax",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMin",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayMin",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMin2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayMin2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayReverse",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayReverse",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayReverseBySwap",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayReverseBySwap",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRotate",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayRotate",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRotateNishant",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayRotateNishant",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRotateSM",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArrayRotateSM",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArraySpan",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArraySpan",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArraySpanNew",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArraySpanNew",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArraySubArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArraySubArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.ArraySum",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FloorAndCeil",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.FloorAndCeil",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array.SubArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_Array",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a5b_Array._Array",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "DiagonalTraversal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.DiagonalTraversal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ExitPointOfMatrix",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.ExitPointOfMatrix",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MatrixMultiplication",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.MatrixMultiplication",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MatrixMultiplication_Better",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.MatrixMultiplication_Better",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MatrixPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.MatrixPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MatrixRotate90DegreeAntiClockWise",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.MatrixRotate90DegreeAntiClockWise",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MatrixTranspose_ExtraSpace",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.MatrixTranspose_ExtraSpace",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MatrixTranspose_NoExtraSpace",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.MatrixTranspose_NoExtraSpace",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RotateBy90Degree",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.RotateBy90Degree",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SaddlePoint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.SaddlePoint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SearchInSorted2DArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.SearchInSorted2DArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ShellRotate",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.ShellRotate",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SpiralTraversal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.SpiralTraversal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "WaveTraversal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix.WaveTraversal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_MatrixIntro",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a6_Array2DMatrix._MatrixIntro",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ImmutableDemo",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringScienteachEasy.ImmutableDemo",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SplitExample",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringScienteachEasy.SplitExample",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringCharacterGet",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringScienteachEasy.StringCharacterGet",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ConvStringtoInt",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.ConvStringtoInt",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringASCIICodeDifferenceStringBuilder",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringASCIICodeDifferenceStringBuilder",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringASCIICodeDifferenceStringVersion",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringASCIICodeDifferenceStringVersion",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringCompression",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringCompression",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringImportantFunction",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringImportantFunction",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringPalindromeByComparingElement",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringPalindromeByComparingElement",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringPalindromeByStringBuilder",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringPalindromeByStringBuilder",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringPermutation",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringPermutation",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringProgram",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringProgram",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringReverseByCharAt",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringReverseByCharAt",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringReverseByStringBuider",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringReverseByStringBuider",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringTest",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringTest",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringToggleCase",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.StringToggleCase",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubStringPalindrome",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.SubStringPalindrome",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubStringPrintAll",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.SubStringPrintAll",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "VowelCount",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7a_StringSumitMalik.VowelCount",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllPalindromeSubString",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7b_StringBuilder.PrintAllPalindromeSubString",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllSubString",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7b_StringBuilder.PrintAllSubString",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListBasic",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7c_ArrayList.ArrayListBasic",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListOddNumberRemove",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7c_ArrayList.ArrayListOddNumberRemove",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListPrimeNumberRemove",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7c_ArrayList.ArrayListPrimeNumberRemove",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListRemoveBasic",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7c_ArrayList.ArrayListRemoveBasic",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListString",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7c_ArrayList.ArrayListString",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_ArrayList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a7c_ArrayList._ArrayList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDescPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.ArrayDescPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDescPrint2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.ArrayDescPrint2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.ArrayPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPrint2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.ArrayPrint2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayStrictIncrease",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.ArrayStrictIncrease",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeriesPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.FibonacciSeriesPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FriendsInviteParty",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.FriendsInviteParty",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MoveAllXtoEnd",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.MoveAllXtoEnd",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberAsecPrint_HighValuesSend",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.NumberAsecPrint_HighValuesSend",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberAsecPrint_LowValuesSend",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.NumberAsecPrint_LowValuesSend",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberDescAsecPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.NumberDescAsecPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberDescPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.NumberDescPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberDescPrint2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.NumberDescPrint2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintReverseString",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.PrintReverseString",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintReverseString2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.PrintReverseString2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintSum",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.PrintSum",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintSum_GreaterSum",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.PrintSum_GreaterSum",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveConsecutiveDuplicateInString",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.RemoveConsecutiveDuplicateInString",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveConsecutiveDuplicateInStringbySwitch",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.RemoveConsecutiveDuplicateInStringbySwitch",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringDuplicateRemove",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.StringDuplicateRemove",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringFirstAndLastOccurence",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.StringFirstAndLastOccurence",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringMoveXArrayLast",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.StringMoveXArrayLast",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringSubSequence",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.StringSubSequence",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringSubSequenceUnique",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.StringSubSequenceUnique",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubsetOfnNumbers",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege.SubsetOfnNumbers",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_RecursionApnaCollege",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionApnaCollege._RecursionApnaCollege",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FactorialNumber",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.FactorialNumber",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberEncoding",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.NumberEncoding",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberSum",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.NumberSum",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberSumMod",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.NumberSumMod",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairPathFinalSample",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.StairPathFinalSample",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringFirstAndLastOccurence(1)",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.StringFirstAndLastOccurence",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringPermutationPep",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.StringPermutationPep",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringPermutations",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.StringPermutations",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StringReversePrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.StringReversePrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubStringDoubt",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.SubStringDoubt",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "TilesPlace2Into1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.TilesPlace2Into1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "TotalPathOfMaze",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSumitMalikGeneral.TotalPathOfMaze",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberPowLinear",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSummitMalikOffical.NumberPowLinear",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberPowXn",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSummitMalikOffical.NumberPowXn",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberPowXnBetter",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSummitMalikOffical.NumberPowXnBetter",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberPowXnLogn",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSummitMalikOffical.NumberPowXnLogn",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintFactorial",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSummitMalikOffical.PrintFactorial",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintFactorial1WRONG",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSummitMalikOffical.PrintFactorial1WRONG",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_RecursionSummitMalikOffical.TowerOfHanoi",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFirstAndLastIndex",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayFirstAndLastIndex",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFirstIndexIterative",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayFirstIndexIterative",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFirstIndexRecursive",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayFirstIndexRecursive",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayFirstIndexRecursiveBasedOnLastIndex",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayFirstIndexRecursiveBasedOnLastIndex",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayLastIndex",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayLastIndex",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMax(1)",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayMax",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMin(1)",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayMin",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPrintByRecursion",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayPrintByRecursion",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayReversePrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b2_RecursionInArray.ArrayReversePrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "KeypadCombinationGet",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b3_RecursionArrayList.KeypadCombinationGet",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MazePathGetCallSmart",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b3_RecursionArrayList.MazePathGetCallSmart",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MazePathGetCallStupid",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b3_RecursionArrayList.MazePathGetCallStupid",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MazePathWithJumpGet",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b3_RecursionArrayList.MazePathWithJumpGet",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairPathGet",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b3_RecursionArrayList.StairPathGet",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubSequenceGet",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b3_RecursionArrayList.SubSequenceGet",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Encoding",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b4_RecursionOnTheWayUp.Encoding",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "KeypadCombinationPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b4_RecursionOnTheWayUp.KeypadCombinationPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MazePathPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b4_RecursionOnTheWayUp.MazePathPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MazePathWithJumpPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b4_RecursionOnTheWayUp.MazePathWithJumpPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairPathPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b4_RecursionOnTheWayUp.StairPathPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubSequencePrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b4_RecursionOnTheWayUp.SubSequencePrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FloodHill",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b5_backtracking.FloodHill",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FloodHill2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b5_backtracking.FloodHill2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FloodHillAttempt",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b5_backtracking.FloodHillAttempt",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ABCTypeSubsequenceDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.ABCTypeSubsequenceDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrangeBuildingDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.ArrangeBuildingDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "BinaryStringCountDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.BinaryStringCountDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "BinaryStringCountDpOldNewCount",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.BinaryStringCountDpOldNewCount",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CoinChangeCombinationTab",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.CoinChangeCombinationTab",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CoinChangePermutationTab",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.CoinChangePermutationTab",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "EncodingDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.EncodingDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeriesDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.FibonacciSeriesDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GoldmineMaxDpTab",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.GoldmineMaxDpTab",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "KnapsackDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.KnapsackDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "KnapsackUnboundedByDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.KnapsackUnboundedByDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MinCostPathDpTab",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.MinCostPathDpTab",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairClimbDp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.StairClimbDp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairClimbDpMemo",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.StairClimbDpMemo",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairClimbDpTab",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.StairClimbDpTab",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairClimbJumpDpTab",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.StairClimbJumpDpTab",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StairClimbMinMovesTab",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.StairClimbMinMovesTab",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StarBlankRightSide",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.StarBlankRightSide",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "TargetSumSubSet",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c1_DynamicProgramming.TargetSumSubSet",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayMergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.ArrayMergeTwoSortedArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPartioning",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.ArrayPartioning",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPivotSortedRotated",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.ArrayPivotSortedRotated",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSorting",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.BubbleSorting",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "CountSort",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.CountSort",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSorting",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.InsertionSorting",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MergeDuplicateSorting",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.MergeDuplicateSorting",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MergeSorting",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.MergeSorting",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "QuickSelect",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.QuickSelect",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.QuickSort",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RadixSort",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.RadixSort",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSorting",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.SelectionSorting",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Sort01",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.Sort01",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Sort012",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.Sort012",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Sort012a",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.Sort012a",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Sorting",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.Sorting",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "TargetSumPair",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.TargetSumPair",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_Sorting",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting._Sorting",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "OopsSwapGameProp",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/d_OopsSwapPepcoding.OopsSwapGameProp",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "OopsSwapGamePropNew",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/d_OopsSwapPepcoding.OopsSwapGamePropNew",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "OopsSwapGamePropNew2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/d_OopsSwapPepcoding.OopsSwapGamePropNew2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "OopsSwapReference2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/d_OopsSwapPepcoding.OopsSwapReference2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "BalancedBracketStack",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.BalancedBracketStack",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateBracketStack",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.DuplicateBracketStack",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FindCelebrity",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.FindCelebrity",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "LargestAreaHistogram",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.LargestAreaHistogram",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "MergerOverlappingInterval",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.MergerOverlappingInterval",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementModIndex",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.NextGreaterElementModIndex",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NextGreaterElementValue",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.NextGreaterElementValue",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NextSmallerElementModIndex",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.NextSmallerElementModIndex",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NextSmallerElementValue",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.NextSmallerElementValue",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindowMaximium",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.SlidingWindowMaximium",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StackIntroByPepCoding",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.StackIntroByPepCoding",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StackIntroduction",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.StackIntroduction",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "StockSpan",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack.StockSpan",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_PraticeStack",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack._PraticeStack",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_Stack",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1_Stack._Stack",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_Queue",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e1a_Queue._Queue",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AddFirstElementLinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddFirstElementLinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AddLastElementLinkedListModifiedFinal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddLastElementLinkedListModifiedFinal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AddLastElementLinkedListOffical",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddLastElementLinkedListOffical",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AddLastElementLinkedList_ListPassed",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddLastElementLinkedList_ListPassed",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AddSpecificElementLinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddSpecificElementLinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "DisplayLinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.DisplayLinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GetValueLinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.GetValueLinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveFirstLinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.RemoveFirstLinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveLastLinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.RemoveLastLinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveSpecificIndexLinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.RemoveSpecificIndexLinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedListDataIterative",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.ReverseLinkedListDataIterative",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedListPointerIterative",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.ReverseLinkedListPointerIterative",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.Test",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_LinkedList",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList._LinkedList",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_LinkedList2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList._LinkedList2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GenericTreeConstructor",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e3_GenericTree.GenericTreeConstructor",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_GenericTree",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e3_GenericTree._GenericTree",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GetCommonElement1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1_HashMap.GetCommonElement1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "GetCommonElement2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1_HashMap.GetCommonElement2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "HashMapIntro2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1_HashMap.HashMapIntro2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "HighestFrequencyCharacterHashMap2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1_HashMap.HighestFrequencyCharacterHashMap2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_HashMap",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1_HashMap._HashMap",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FindKLargesntInArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1a_Heap.FindKLargesntInArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "KSortedArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1a_Heap.KSortedArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PrintPriorityQueue",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1a_Heap.PrintPriorityQueue",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueueIntro",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1a_Heap.PriorityQueueIntro",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_Heap",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1a_Heap._Heap",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f2_Graphs.Main",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f2_Graphs.Main2",
+            "projectName": "SumitMalikPepCodingL1"
+        }
+    ]
+}
