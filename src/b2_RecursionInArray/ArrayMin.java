@@ -38,7 +38,7 @@ public class ArrayMin {
 // Incorrect Approach
 /*
  * 
- * private static void maxOfArray(int[] arr, int idx) { // TODO Auto-generated
+ * private static void maxOfArray(int[] arr, int idx) { 
  * method stub if(arr[idx]==arr.length) { System.out.println("Max of Array");
  * return; }
  * 

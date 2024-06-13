@@ -7,7 +7,7 @@ public class NumberSumMod {
 		System.out.println("Enter Number :");
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-
+		sc.close();
 		int sum = printSum(n);
 		int sum2 = printSum2(n);
 		int fact = printFact(n);

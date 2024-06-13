@@ -37,11 +37,4 @@ public class StringToggleCase {
 	}
 
 }
-/*
- * private static void toggleCase(String str) { // TODO Auto-generated method
- * stub
- * 
- * }
- * 
- * 
- */
+

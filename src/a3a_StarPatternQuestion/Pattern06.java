@@ -7,11 +7,12 @@ public class Pattern06 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Your Number");
 		int n = scanner.nextInt();
+		scanner.close();
 
 		// ! Assumption Entered Number is Odd Always
 		if (n % 2 == 0) {
 			System.out.println("Error Occured!!!! , Try Odd Number");
-			return;
+			return ;
 		}
 
 		int st = n / 2 + 1;
@@ -38,8 +39,7 @@ public class Pattern06 {
 			}
 			System.out.println();
 		}
-
 		scanner.close();
-	}
+	}	
 
 }

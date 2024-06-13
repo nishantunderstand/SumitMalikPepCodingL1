@@ -10,7 +10,7 @@ public class NumberRotate {
 		int onum1 = n;
 		int nod = 0;
 		int k = sc.nextInt();
-
+		sc.close();
 		int quot = 0;
 		int rem = 0;
 		int rotnum = 0;
@@ -33,5 +33,6 @@ public class NumberRotate {
 		System.out.println(rotnum);
 
 	}
+	
 
 }

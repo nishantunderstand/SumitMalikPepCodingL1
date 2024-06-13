@@ -22,6 +22,7 @@ public class ArrayMergeTwoSortedArray {
 		 * 
 		 * }
 		 */
+		sc.close();
 		int[] arr2 = {7,9,11,15,25,28,30,35};
 		int mergedSortedArr[] = ArrayMergeTwoSorted(arr1, arr2);
 		System.out.println("Array 1: " + Arrays.toString(arr1));

@@ -8,6 +8,7 @@ public class NumberSum {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		printsum(0, n, 0);
+		sc.close();
 	}
 
 	private static void printsum(int idx, int n, int sum) {

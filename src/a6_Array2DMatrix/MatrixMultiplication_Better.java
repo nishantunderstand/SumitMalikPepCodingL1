@@ -25,7 +25,7 @@ public class MatrixMultiplication_Better {
 				two[i][j] = sc.nextInt();
 			}
 		}
-
+		sc.close();
 		if (c1 != r2) {
 			System.out.println("Array Cannot be Multiplied");
 			return;

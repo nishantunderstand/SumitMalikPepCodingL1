@@ -4,7 +4,7 @@ public class CheckPrimeByFlagv0 {
 	public static void main(String[] args) {
 		int num = 3;
 		int flag = 0;
-		int m = num;
+		//int m = num;
 		if (num < 0) {
 			System.out.println("!!!Enter Positive Number!!!");
 			return;

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashMapIntro",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1_HashMap.HashMapIntro",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

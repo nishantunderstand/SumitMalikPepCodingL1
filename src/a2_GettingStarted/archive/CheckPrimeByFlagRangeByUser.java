@@ -36,7 +36,7 @@ public class CheckPrimeByFlagRangeByUser {
 				System.out.println(num + " is not Prime ");
 			}
 		}
-
+		scanner.close();
 	}
 
 }

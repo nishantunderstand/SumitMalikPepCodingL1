@@ -17,6 +17,7 @@ public class MergeSorting {
 		System.out.println("Array 1: " + Arrays.toString(arr));
 		int sortedmerge[] = SortingMerge(arr, 0, arr.length - 1);
 		System.out.println("Merge Sorted :" + Arrays.toString(sortedmerge));
+		sc.close();
 	}
 
 	private static int[] SortingMerge(int[] arr, int low, int hi) {

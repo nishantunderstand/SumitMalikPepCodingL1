@@ -8,6 +8,7 @@ public class Pattern20SM {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number ");
 		int n = 5;
+		sc.close();
 		System.out.println("Your Star ");
 		for (int i = 1; i <= n; i++) {
 			for (int j = 1; j <= n; j++) {
