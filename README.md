@@ -1,3 +1,6 @@
+git init & git pull & git add . & git commit -m "2024-June" & git push origin master 
+
+
 Syned with Github.
 	Put similar code at one place.
 For Example :
