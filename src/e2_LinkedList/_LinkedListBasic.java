@@ -1,6 +1,6 @@
 package e2_LinkedList;
 
-public class Test {
+public class _LinkedListBasic {
 	
 	public static class Node{
 		int data;

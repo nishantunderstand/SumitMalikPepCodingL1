@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "_LinkedList1",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList._LinkedList1",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "HashMapIntro",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/f1_HashMap.HashMapIntro",

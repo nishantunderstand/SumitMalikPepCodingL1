@@ -2,7 +2,7 @@ package e2_LinkedList;
 
 import java.util.Scanner;
 
-public class _LinkedList {
+public class LinkedListIntro {
 
 	public static class Node {
 		int data;
