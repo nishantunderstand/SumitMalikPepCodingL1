@@ -2,28 +2,30 @@ package f1_HashMap;
 
 import java.util.HashMap;
 
+/** 
+ * Can we use char,int for declaration ?
+*/
 public class HighestFrequencyCharacterHashMap2 {
 	public static void main(String[] args) {
-		String str = "aabbccc";
-		HashMap<Character, Integer> hmap = new HashMap<>();
-		for (int i = 0; i < str.length(); i++) {
+		String str = "aabbbaaaccccdddd";
+		HashMap<Character,Integer> hm = new HashMap<>();
+		for(int i=0;i<str.length();i++){
 			char ch = str.charAt(i);
-			if (hmap.containsKey(ch)) {
-				int of = hmap.get(ch);
-				int nf = of + 1;
-				hmap.put(ch, nf);
-			} else {
-				hmap.put(ch, 1);
+			if(hm.containsKey(ch)){
+				int of=hm.get(ch);
+				int nf = of+1;
+				hm.put(ch,nf);
+			}else{
+				hm.put(ch,1);
 			}
 		}
-		System.out.println("HashMap:" + hmap);
 		char MaxOccChar = str.charAt(0);
-		System.out.println("Assumed Maximium Occurence Character : " + MaxOccChar);
-		for (Character key : hmap.keySet()) {
-			if (hmap.get(key) > hmap.get(MaxOccChar))
-				MaxOccChar = key;
+		for(Character iKey : hm.keySet()){
+			if(hm.get(iKey)>hm.get(MaxOccChar)){
+				MaxOccChar=iKey;
+			}
 		}
-		System.out.println("Maximium Occurence Character : " + MaxOccChar);
-
+		System.out.println("HashMap"+hm);
+		System.out.println("Maximum Occurence : "+MaxOccChar +"Count :"+hm.get(MaxOccChar));
 	}
 }

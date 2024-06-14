@@ -3,25 +3,15 @@ package f1a_Heap;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Scanner;
-
+/**
+ * Will Duplicate impact it ?
+ */
 public class FindKLargesntInArray {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Details:");
-		int n = sc.nextInt();
-		int arr[] = new int[n];
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
-		}
-
-		int k = sc.nextInt();
-		System.out.println(Arrays.toString(arr));
-		Arrays.sort(arr);
-		System.out.println(Arrays.toString(arr));
-		System.out.println(k);
-
+		int k=3;
+		int[] arr ={3,2,1,5,6,4};
 		PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
-
 		for (int i = 0; i < arr.length; i++) {
 			if (i < k) {
 				pq.add(arr[i]);
@@ -32,11 +22,12 @@ public class FindKLargesntInArray {
 				}
 			}
 		}
-
+		System.out.println("Priority-Queue Size:"+pq.size());
 		while (pq.size() > 0) {
 			System.out.println(pq.remove());
 		}
 		sc.close();
+		
 
 	}
 
