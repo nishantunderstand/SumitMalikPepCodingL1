@@ -26,8 +26,7 @@ public class FindKLargesntInArray {
 		while (pq.size() > 0) {
 			System.out.println(pq.remove());
 		}
-		sc.close();
-		
+		sc.close();	
 
 	}
 
