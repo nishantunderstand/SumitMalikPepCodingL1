@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GetCommonElement1ForEach",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1_HashMap.GetCommonElement1ForEach",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "AddLastElementLinkedList_Offical",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddLastElementLinkedList_Offical",

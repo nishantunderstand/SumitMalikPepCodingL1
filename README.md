@@ -13,6 +13,12 @@ Not a Folder.
 So that you can resume your work.
 
 
+-----------------------
+
+If you reached 500 Credit, That's means you done a lot of coding.
+Then you can use you laptop. It is better
+
+
 
 # Git Help
 git init & git pull & git add . & git commit -m "Gitpod-2024-June" 

@@ -2,7 +2,8 @@ package f1_HashMap;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
-public class GetCommonElement1 {
+public class GetCommonElement1ForEach {
+
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int[] arr1 = {5, 5, 9, 8, 5, 5, 8, 0, 3};
@@ -11,14 +12,13 @@ public class GetCommonElement1 {
 		
 		HashMap<Integer, Integer> hm = new HashMap<>();
 		// Creating Character Frequency of array1
-		for (int i = 0; i < arr1.length; i++) {
-			int arrelem = arr1[i];
-			if (hm.containsKey(arrelem)) {
-				int of = hm.get(arrelem);
+		for (int i:arr1) {
+			if (hm.containsKey(i)) {
+				int of = hm.get(i);
 				int nf = of + 1;
-				hm.put(arrelem, nf);
+				hm.put(i++, nf);
 			} else {
-				hm.put(arrelem, 1);
+				hm.put(i++, 1);
 			}
 		}
 		System.out.println("Array 1:"+hm);
