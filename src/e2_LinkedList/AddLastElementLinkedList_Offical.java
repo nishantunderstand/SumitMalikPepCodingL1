@@ -7,7 +7,7 @@ import java.util.Scanner;
  * What if the size is Zero ?
  * Then how the things will work ?
  */
-public class AddLastElementLinkedListOffical {
+public class AddLastElementLinkedList_Offical {
 	//Storage : 4 Byte + 4 Byte => Total 8 Byte
 	public static class Node {
 		int data;

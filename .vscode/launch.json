@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddLastElementLinkedList_Offical",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddLastElementLinkedList_Offical",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "FindKLargesntInArray_tuf_leetCode",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/f1a_Heap.FindKLargesntInArray_tuf_leetCode",
