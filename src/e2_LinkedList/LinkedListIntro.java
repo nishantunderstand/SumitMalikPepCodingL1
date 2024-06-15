@@ -14,17 +14,27 @@ public class LinkedListIntro {
 		Node tail;
 		int size;
 
+/**
+There are two cases which need to be handled:
+
+1. If the linked list is empty, i.e. the size of the linked list is 0.
+2. If there is at least one node already present in the linked list, i.e. 
+	the size of the linked list is greater than or equal to 1.
+	Both Case : You need to increase Size
+*/
 		void addElement(LinkedList list, int val) {
 			Node temp = new Node();
 			temp.data = val;
 			temp.next = null;
 
-			if (list.size == 0) {
+			if (list.size == 0)  // Size Zero Case
+			{
 				head = temp;
 				tail = temp;
-			} else {
+			} else // Size Non-Zero Case
+			{
 				tail.next = temp;
-				tail = temp;
+				tail = temp; // We can fetch value from temp.data, As we already put the data in temp. Look Above.
 			}
 			size++;
 		}
@@ -45,13 +55,11 @@ public class LinkedListIntro {
 		list.addElement(list, 30);
 		list.addElement(list, 40);
 		list.addElement(list, 50);
-
 		System.out.println("My LinkedList size : " + list.size);
 		System.out.println("My LinkedList : ");
 		list.display();
 		System.out.println("\nMy Updated LinkedList : ");
 		list.display();
 		sc.close();
-
 	}
 }
