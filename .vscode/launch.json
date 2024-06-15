@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindKLargesntInArray_tuf_leetCode",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1a_Heap.FindKLargesntInArray_tuf_leetCode",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "FindKLargesntInArray_tuf",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f1a_Heap.FindKLargesntInArray_tuf",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "_LinkedList1",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/e2_LinkedList._LinkedList1",

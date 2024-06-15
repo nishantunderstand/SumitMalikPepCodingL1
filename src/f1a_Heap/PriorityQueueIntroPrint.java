@@ -2,7 +2,7 @@ package f1a_Heap;
 
 import java.util.PriorityQueue;
 
-public class PrintPriorityQueue {
+public class PriorityQueueIntroPrint {
 
 	public static void main(String[] args) {
 		PriorityQueue<Integer> pq = new PriorityQueue<>();

@@ -1,8 +1,11 @@
 - [HashMap](src/f1_HashMap/_HashMap.java)
 - [LinkedList](src/e2_LinkedList/_LinkedListBasic.java)
+- [Heap](src/f1a_Heap/_Heap.java)
+
+
 - [ChatGPT](https://chatgpt.com/)
 - [Notion](https://www.notion.so/nishant1/ddebaa3bfa8c48068fb88cdd61954281?v=7f987994bb9f4482bc810694b15c11c9)
-- [LinkedListPepCoding Website](https://web.archive.org/web/20231211092439/https://www.pepcoding.com/resources/online-java-foundation/linked-lists)
+- [PepCoding Website](https://web.archive.org/web/20231211092439/https://www.pepcoding.com/resources/online-java-foundation/)
 - [Github FOMO](https://github.com/nishantunderstand/SumitMalikPepCodingL1/commits/master/)
 ---
 - Always put relative link of a File. 
