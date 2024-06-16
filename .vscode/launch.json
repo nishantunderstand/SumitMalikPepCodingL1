@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddLastElementLinkedList_InstanceFinal",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddLastElementLinkedList_InstanceFinal",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "AddLastElementLinkedList_Static",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddLastElementLinkedList_Static",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "LinkedListIntrocopy",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/e2_LinkedList.LinkedListIntrocopy",

@@ -1,28 +1,28 @@
+```java
 package e2_LinkedList;
 
 import java.util.Scanner;
-/**
- * Question : Add to Linked List ?
- * So you need to consider the possibility ?
- * What if the size is Zero ?
- * Then how the things will work ?
- */
-public class AddLastElementLinkedList_Offical {
-	//Storage : 4 Byte + 4 Byte => Total 8 Byte
+
+// IDK , Whether it is correct or not. This is not the way of declaration.
+
+public class AddLastElementLinkedList_Static {
+
 	public static class Node {
 		int data;
 		Node next;
 	}
 
-	// Can Static Class access Non-Static Member ?
-	// Yes
 	public static class LinkedList {
-		Node head;
-		Node tail;
-		int size;
+		static Node head; // Here Variable is Statice
+		static Node tail;
+		static int size;
 
-		public void addElement(int val) {
-
+		public static void addElement(int val) {
+			// If you declare this method static , 
+			// then you need to make the variable Static, 
+			// otherwise there will be error. 
+			// Got it ?
+			
 			// Common Code
 			Node temp = new Node();
 			temp.data = val;
@@ -52,7 +52,7 @@ public class AddLastElementLinkedList_Offical {
 		System.out.println("Enter Your LinkedList");
 		Scanner sc = new Scanner(System.in);
 		LinkedList list = new LinkedList();
-		list.addElement(20);
+		list.addElement(203);
 		list.addElement(30);
 		list.addElement(40);
 		list.addElement(50);
@@ -61,3 +61,5 @@ public class AddLastElementLinkedList_Offical {
 
 	}
 }
+
+```

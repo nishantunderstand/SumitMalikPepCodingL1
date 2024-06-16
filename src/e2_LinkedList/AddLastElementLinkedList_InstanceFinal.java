@@ -2,7 +2,7 @@ package e2_LinkedList;
 
 import java.util.Scanner;
 
-public class DisplayLinkedList {
+public class AddLastElementLinkedList_InstanceFinal {
 
 	public static class Node {
 		int data;
@@ -10,16 +10,16 @@ public class DisplayLinkedList {
 	}
 
 	public static class LinkedList {
-		Node head;
+		Node head; // Here Variable is Instance 
 		Node tail;
 		int size;
 
-		void addLast(int val) {
+		public void addLastElement(LinkedList list, int val) {
 			Node temp = new Node();
 			temp.data = val;
 			temp.next = null;
 
-			if (size == 0) {
+			if (list.size == 0) {
 				head = temp;
 				tail = temp;
 			} else {
@@ -35,15 +35,6 @@ public class DisplayLinkedList {
 				System.out.print(temp.data + "-->");
 				temp = temp.next;
 			}
-			System.out.println();
-		}
-		public int size(){
-			/**
-			LinkedList list = new LinkedList();
-			System.out.println(list.size);
-			return list.size;
-			*/
-			return size;
 		}
 	}
 
@@ -51,12 +42,11 @@ public class DisplayLinkedList {
 		System.out.println("Enter Your LinkedList");
 		Scanner sc = new Scanner(System.in);
 		LinkedList list = new LinkedList();
-		list.addLast(20);
-		list.addLast(30);
-		list.addLast(40);
-		list.addLast(50);
+		list.addLastElement(list, 201);
+		list.addLastElement(list, 30);
+		list.addLastElement(list, 40);
+		list.addLastElement(list, 50);
 		list.display();
-		System.out.println("List Size : "+list.size());
 		sc.close();
 
 	}

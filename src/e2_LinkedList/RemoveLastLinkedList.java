@@ -3,12 +3,10 @@ package e2_LinkedList;
 import java.util.Scanner;
 
 public class RemoveLastLinkedList {
-
 	public static class Node {
 		int data;
 		Node next;
 	}
-
 	public static class LinkedList {
 		Node head;
 		Node tail;
