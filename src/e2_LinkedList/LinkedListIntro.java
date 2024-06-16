@@ -32,9 +32,9 @@ There are two cases which need to be handled:
 				head = temp;
 				tail = temp;
 			} else // Size Non-Zero Case
-			{
-				tail.next = temp;
+			{				
 				tail = temp; // We can fetch value from temp.data, As we already put the data in temp. Look Above.
+				tail.next = temp;
 			}
 			size++;
 		}
