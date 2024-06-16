@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedListIntrocopy",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.LinkedListIntrocopy",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "GetCommonElement1ForEach",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/f1_HashMap.GetCommonElement1ForEach",
