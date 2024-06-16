@@ -9,8 +9,13 @@
 - [PepCoding Website](https://web.archive.org/web/20231211092439/https://www.pepcoding.com/resources/online-java-foundation/)
 
 
+- June 16
+Now i start using f9 for debugging. Goal is to decrease the Fricition.
+So that i can work faster and Smarter.
+That was always the goal.
+I hope you get it.
 
-Sunday, June 16, 2024 7:17 AM
+
 ---
 - Always put relative link of a File. 
 Not a Folder. 
