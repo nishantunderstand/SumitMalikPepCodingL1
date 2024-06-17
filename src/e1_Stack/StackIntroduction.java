@@ -4,7 +4,6 @@ import java.util.Stack;
 
 /**
  * Stack is based on LIFO
- * {@link }
  */
 public class StackIntroduction {
 	public static void main(String[] args) {
