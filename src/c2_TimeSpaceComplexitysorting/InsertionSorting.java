@@ -24,10 +24,7 @@ public class InsertionSorting {
 		System.out.println("Sorting:");
 		Scanner sc = new Scanner(System.in);
 		int[] arr = {5,9,2,8,1};
-		/*
-		 * int n = sc.nextInt(); int arr[] = new int[n]; for (int i = 0; i < arr.length;
-		 * i++) { arr[i] = sc.nextInt(); }
-		 */
+
 		System.out.println("Arrays:" + Arrays.toString(arr));
 		insertionSort(arr);
 		System.out.println("Arrays:" + Arrays.toString(arr));

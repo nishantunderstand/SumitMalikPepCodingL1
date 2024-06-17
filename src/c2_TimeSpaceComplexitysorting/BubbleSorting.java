@@ -34,11 +34,17 @@ public class BubbleSorting {
 		// sc.close();
 	}
 
-	// Unable to understand For loops
-	// Time Complexity Will be O(n*n)
+
+	/**
+	2024-Unable to understand For loops
+	Time Complexity Will be O(n*n)
+	1st Element is compared to Oth Element.
+	*/
 	private static void BubbleSorting(int[] arr) {
-		for (int itr = 1; itr <= arr.length - 1; itr++) {
-			for (int j = 0; j < arr.length - itr; j++) {
+		for (int itr = 1; itr <= arr.length - 1; itr++) // Purpose is to make sure , Length is decreasing 
+		{
+			for (int j = 0; j < arr.length - itr; j++) // This loop is for comparision
+			{
 				if (isSmaller(arr, j + 1, j)) {
 					swap(arr, j + 1, j);
 				}

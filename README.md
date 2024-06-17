@@ -1,4 +1,5 @@
 - [Github FOMO](https://github.com/nishantunderstand/SumitMalikPepCodingL1/commits/master/)
+- [Notion](https://www.notion.so/nishant1/ddebaa3bfa8c48068fb88cdd61954281?v=46b4a6dff66d4179a130808549734069&pm=c)
 
 - [HashMap](src/f1_HashMap/_HashMap.java)
 - [LinkedList](src/e2_LinkedList/_LinkedListBasic.java)

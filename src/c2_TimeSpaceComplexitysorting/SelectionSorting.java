@@ -23,10 +23,6 @@ public class SelectionSorting {
 	public static void main(String[] args) {
 		System.out.println("Sorting:");
 		Scanner sc = new Scanner(System.in);
-		/*
-		 * int n = sc.nextInt(); int arr[] = new int[n]; for (int i = 0; i < arr.length;
-		 * i++) { arr[i] = sc.nextInt(); }
-		 */
 		int[] arr = {5,9,8,2,1};
 		System.out.println("Before Arrays:" + Arrays.toString(arr));
 		SelectionSorting(arr);
@@ -39,7 +35,8 @@ public class SelectionSorting {
 	private static void SelectionSorting(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			// int mi = arr[i]; <-- Only Index
-			int mi = i; // mi stand for Minimium Index
+			int mi = i; // mi stand for Minimium Index 
+			// Why do we need minimium Index ?
 
 			// why j is arr.length ? Whyn't arr.length-1
 			// Our Goal is to Minimium From the Rest of String, So we are going to iterate till the end.

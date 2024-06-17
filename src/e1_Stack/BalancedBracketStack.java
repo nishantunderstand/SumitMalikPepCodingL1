@@ -8,8 +8,10 @@ import java.util.Stack;
 
 public class BalancedBracketStack {
 	public static void main(String[] args) {
-		String str = "())";
+		String str = "(){}}{";
+		
 		/** 
+		 * "())";
 		"(]"; // False is Excepted
 		[(a + b) + {(c + d) * (e / f)}] -> true
 		[(a + b) + {(c + d) * (e / f)]} -> false
@@ -51,10 +53,12 @@ public class BalancedBracketStack {
 	}
 
 	private static boolean handleclosing(Stack<Character> st, char corresch) {
-		if(st.size()==0) // why are we checking Size here, I am already checking size in the end. Is this duplicate code ?
+		// 4.15 PM why are we checking Size here, I am already checking size in the end. Is this duplicate code ? 
+		// 4.32 PM - It is required. // Underflow & Overflow
+		if(st.size()==0) 
 		{ 
 			return false;		
-		}
+		}		
 		else if(st.peek()!=corresch){
 			return false;			
 		}else{
