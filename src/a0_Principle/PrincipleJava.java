@@ -6,6 +6,7 @@ public class PrincipleJava {
 		System.out.println("Git Ignore is really awesome Try and Implement it -VS Code Space");
 		System.out.println("Git Ignore is really awesome Try and Implement it -Git Pod, I Hope to get Success");
 		System.out.println("Let test Local Eclipse as well.");
+		System.out.println("Let test Local Eclipse as well. After ChatGPT Help");
 	}
 }
 

@@ -2,7 +2,17 @@
 bin
 .settings
 /bin/
-/target/
 /target/classes/
+
+# Tuesday, June 18, 2024 8:00 PM , Get rid of .class File
+**/.class
 /target/classes/
+/target/classes
+/target
+
+/target/classes/**.class
+
+
+
+
 # Removed this Files
