@@ -1,4 +1,49 @@
-create a toc in this so that I can easily Navigate 😭 😭 
+# TOC
+
+- [a0a_CodingBasic](src/a0a_CodingBasic)
+- [a0_Principle](src/a0_Principle)
+- [a1_ForCplusplusCoders](src/a1_ForCplusplusCoders)
+- [a2_GettingStarted](src/a2_GettingStarted)
+- [a3a1_StarPatternQuestion](src/a3a1_StarPatternQuestion)
+- [a3a_StarPatternQuestion](src/a3a_StarPatternQuestion)
+- [a3b_NumberPatternQuestion](src/a3b_NumberPatternQuestion)
+- [a4_HeapUnavailable](src/a4_HeapUnavailable)
+- [a5a_Functions](src/a5a_Functions)
+- [a5b_Array](src/a5b_Array)
+- [a6_Array2DMatrix](src/a6_Array2DMatrix)
+- [a7a_StringScienteachEasy](src/a7a_StringScienteachEasy)
+- [a7a_StringSumitMalik](src/a7a_StringSumitMalik)
+- [a7b_StringBuilder](src/a7b_StringBuilder)
+- [a7c_ArrayList](src/a7c_ArrayList)
+- [b1_RecursionApnaCollege](src/b1_RecursionApnaCollege)
+- [b1_RecursionSumitMalikGeneral](src/b1_RecursionSumitMalikGeneral)
+- [b1_RecursionSummitMalikOffical](src/b1_RecursionSummitMalikOffical)
+- [b2_RecursionInArray](src/b2_RecursionInArray)
+- [b3_RecursionArrayList](src/b3_RecursionArrayList)
+- [b4_RecursionOnTheWayUp](src/b4_RecursionOnTheWayUp)
+- [b5_backtracking](src/b5_backtracking)
+- [c1_DynamicProgramming](src/c1_DynamicProgramming)
+- [c2_TimeSpaceComplexitysorting](src/c2_TimeSpaceComplexitysorting)
+- [d_OopsSwapPepcoding](src/d_OopsSwapPepcoding)
+- [e1a_Queue](src/e1a_Queue)
+- [e1b_QueueToStack](src/e1b_QueueToStack)
+- [e1_Stack](src/e1_Stack)
+- [e2_LinkedList](src/e2_LinkedList)
+- [e3_GenericTree](src/e3_GenericTree)
+- [e4_BinaryTree](src/e4_BinaryTree)
+- [e5_BinarySearchTree](src/e5_BinarySearchTree)
+- [f1a_Heap](src/f1a_Heap)
+- [f1_HashMap](src/f1_HashMap)
+- [f2_Graphs](src/f2_Graphs)
+- [g1_JavaforCplusplusCoders](src/g1_JavaforCplusplusCoders)
+- [g2_LeetCode](src/g2_LeetCode)
+ 
+
+---
+
+
+
+
 
 
 
