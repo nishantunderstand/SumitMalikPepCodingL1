@@ -7,7 +7,7 @@ public class Pattern09 {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number");
-		int n = sc.nextInt();
+		int n = 5;
 
 		System.out.println("Your Star ");
 

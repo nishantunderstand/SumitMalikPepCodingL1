@@ -1,10 +1,9 @@
-# Table of Contents
-
-- [a0a_CodingBasic](src/a0a_CodingBasic)
+# Table of Contents (Mobile View)
+- [a0a_CodingBasic](src/a0a_CodingBasic) 
 - [a0_Principle](src/a0_Principle)
 - [a1_ForCplusplusCoders](src/a1_ForCplusplusCoders)
 - [a2_GettingStarted](src/a2_GettingStarted)
-- [a3a_StarPatternQuestion_SummitMalik](src/a3a_StarPatternQuestion_SummitMalik)
+- [a3a_StarPatternQuestion_SummitMalik](src/a3a_StarPatternQuestion_SummitMalik) June 18
 - [a3b_StarPatternQuestion_JavaTpoint](src/a3b_StarPatternQuestion_JavaTpoint)
 - [a3c_NumberPatternQuestion](src/a3c_NumberPatternQuestion)
 - [a4_HeapUnavailable](src/a4_HeapUnavailable)

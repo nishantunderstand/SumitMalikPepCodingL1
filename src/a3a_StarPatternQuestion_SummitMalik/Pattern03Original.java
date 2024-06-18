@@ -1,5 +1,12 @@
 package a3a_StarPatternQuestion_SummitMalik;
+/**
+                                *
+                        *       *
+                *       *       *
+        *       *       *       *
+*       *       *       *       *
 
+*/
 import java.util.Scanner;
 
 public class Pattern03Original {
@@ -7,7 +14,7 @@ public class Pattern03Original {
 
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Number ");
-		int n = sc.nextInt();
+		int n = 5;
 		System.out.println("Your Star ");
 		int sp = n - 1;
 		int st = 1;

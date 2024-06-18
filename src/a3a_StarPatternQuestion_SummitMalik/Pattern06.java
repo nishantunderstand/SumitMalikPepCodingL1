@@ -1,15 +1,22 @@
 package a3a_StarPatternQuestion_SummitMalik;
+/**
+*       *       *               *       *       *
+*       *                               *       *
+*                                               *
+*       *                               *       *
+*       *       *               *       *       *
 
+*/
 import java.util.Scanner;
 
 public class Pattern06 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Your Number");
-		int n = scanner.nextInt();
+		int n = 5;
 		scanner.close();
 
-		// ! Assumption Entered Number is Odd Always
+		// Assumption Entered Number is Odd Always
 		if (n % 2 == 0) {
 			System.out.println("Error Occured!!!! , Try Odd Number");
 			return ;
