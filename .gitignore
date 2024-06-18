@@ -1,7 +1,8 @@
 .tmp.driveupload
 bin
 .settings
-bin/
-target/
-target/classes/
+/bin/
+/target/
+/target/classes/
+/target/classes/
 # Removed this Files
