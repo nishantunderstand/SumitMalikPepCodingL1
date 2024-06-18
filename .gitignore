@@ -1,4 +1,5 @@
 .tmp.driveupload
 bin
 .settings
+bin/
 # Removed this Files
