@@ -1,5 +1,8 @@
 package a3a1_StarPatternQuestion;
 
+
+// Renumber the package 📦 and post it 
+// There is going to be a lot of Changes 
 public class DiamondPatternPratice {
 	public static void main(String[] args) {
 		int row = 5;
