@@ -1,5 +1,18 @@
 package a3a_StarPatternQuestion;
 
+/**
+```md
+![Pattern1](https://i.imgur.com/EpGDS2F.png)
+```
+*/
+
+/**
+```markdowm
+![Pattern1](https://i.imgur.com/EpGDS2F.png)
+```
+*/
+
+
 import java.util.Scanner;
 
 public class Pattern01 {
