@@ -1,5 +1,4 @@
 # TOC
-
 - [a0a_CodingBasic](src/a0a_CodingBasic)
 - [a0_Principle](src/a0_Principle)
 - [a1_ForCplusplusCoders](src/a1_ForCplusplusCoders)
