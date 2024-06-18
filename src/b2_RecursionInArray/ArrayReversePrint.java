@@ -1,7 +1,7 @@
 package b2_RecursionInArray;
 
-import b1_RecursionApnaCollege.ArrayDescPrint;
-import b1_RecursionApnaCollege.NumberAsecPrint_LowValuesSend;
+import b1_Recursion_ApnaCollege.ArrayDescPrint;
+import b1_Recursion_ApnaCollege.NumberAsecPrint_LowValuesSend;
 
 /**
  * 
