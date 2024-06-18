@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pattern02SummitMalikcopy",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion_SummitMalik.Pattern02SummitMalikcopy",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "Pattern09",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion_SummitMalik.Pattern09",
