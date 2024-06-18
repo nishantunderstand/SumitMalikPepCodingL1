@@ -1,6 +1,8 @@
 package a3a_StarPatternQuestion;
 
 /**
+
+Where there is an problem,There is an opportunity.
 ```md
 ![Pattern1](https://i.imgur.com/EpGDS2F.png)
 ```
@@ -16,6 +18,10 @@ package a3a_StarPatternQuestion;
 ****
 *****
 
+June 18, 3.01 PM
+you can update it like this
+so that you can move forward 😉 
+This is really important.
 */
 
 
