@@ -3,4 +3,5 @@ bin
 .settings
 bin/
 target/
+target/classes/
 # Removed this Files
