@@ -10,6 +10,12 @@ package a3a_StarPatternQuestion;
 ```markdowm
 ![Pattern1](https://i.imgur.com/EpGDS2F.png)
 ```
+*
+**
+***
+****
+*****
+
 */
 
 
