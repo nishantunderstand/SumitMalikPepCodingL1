@@ -9,17 +9,25 @@
 - [Notion](https://www.notion.so/nishant1/ddebaa3bfa8c48068fb88cdd61954281?v=7f987994bb9f4482bc810694b15c11c9)
 - [PepCoding Website](https://web.archive.org/web/20231211092439/https://www.pepcoding.com/resources/online-java-foundation/)
 
+
 - June 16
 Now i start using f9 for debugging. Goal is to decrease the Fricition.
 So that i can work faster and Smarter.
 That was always the goal.
 I hope you get it.
 
+
 ---
 - Always put relative link of a File. 
 Not a Folder. 
 So that you can resume your work.
+
+
+
+
+
 -----------------------
+
 If you reached 500 Credit, That's means you done a lot of coding.
 Then you can use you laptop. It is better
 
