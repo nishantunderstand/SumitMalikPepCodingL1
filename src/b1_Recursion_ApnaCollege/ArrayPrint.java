@@ -7,7 +7,6 @@ public class ArrayPrint {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Array Length :");
-		int n = sc.nextInt();
 		int arr[] = {1,2,3,4,5};
 		System.out.println("Your Entered Array : "+Arrays.toString(arr));
 		displayArr(arr,0);

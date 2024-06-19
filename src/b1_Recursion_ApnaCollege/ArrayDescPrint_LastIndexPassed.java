@@ -26,10 +26,7 @@ public class ArrayDescPrint_LastIndexPassed {
 		if (idx < 0) {
 			return;
 		}
-		System.out.print(arr[idx] + "\t"); // Descending Order
-		
+		System.out.print(arr[idx] + "\t"); // Descending Order		
 		PrintArrayDesc(arr, idx - 1);
-		// System.out.print(arr[idx] + "\t"); // Ascending Order
 	}
-
 }

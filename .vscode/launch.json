@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPrint2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayPrint2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayAsecPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayAsecPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDescPrint_FirstIndexPassed",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayDescPrint_FirstIndexPassed",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "ArrayDescPrint_LastIndexPassed",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayDescPrint_LastIndexPassed",

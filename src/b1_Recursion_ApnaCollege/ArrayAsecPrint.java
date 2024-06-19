@@ -2,7 +2,7 @@ package b1_Recursion_ApnaCollege;
 
 import java.util.Scanner;
 
-public class ArrayDescPrint_FirstIndexPassed {
+public class ArrayAsecPrint {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Array Length :\n");
@@ -15,8 +15,8 @@ public class ArrayDescPrint_FirstIndexPassed {
 		if (idx == arr.length) {
 			return;
 		}
-		
+		System.out.println(arr[idx]); // Ascending Order 
 		PrintArrayDesc(arr, idx + 1);
-		System.out.println(arr[idx]); // Descending Order
+		//System.out.println(arr[idx]); // Descending Order
 	}
 }
