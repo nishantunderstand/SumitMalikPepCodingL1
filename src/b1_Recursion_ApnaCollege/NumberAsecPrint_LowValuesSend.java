@@ -6,7 +6,7 @@ public class NumberAsecPrint_LowValuesSend {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Number:");
-		int n = sc.nextInt();
+		int n = 7;
 		PrintAsec(n);
 		sc.close();
 	}

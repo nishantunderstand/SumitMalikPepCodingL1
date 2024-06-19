@@ -8,7 +8,7 @@ public class NumberDescPrint {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter the Number : ");
-		int n = sc.nextInt();
+		int n = 7;
 
 		PrintDesc(n);
 		sc.close();

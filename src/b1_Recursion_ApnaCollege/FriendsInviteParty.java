@@ -6,7 +6,7 @@ public class FriendsInviteParty {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Number of Friends you want to invite:");
-		int n = scanner.nextInt();
+		int n = 7;
 		int ans = FriendsInviteParty(n);
 		System.out.println("Ways to Invite Friends :" + ans);
 		scanner.close();

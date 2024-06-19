@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayDescPrint_LastIndexPassed",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayDescPrint_LastIndexPassed",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "SubsetOfnNumbers",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.SubsetOfnNumbers",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "NumberAsecPrint_LowValuesSend",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.NumberAsecPrint_LowValuesSend",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "ArrayDescPrint",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayDescPrint",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "_RecursionApnaCollege",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege._RecursionApnaCollege",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "Pattern02SummitMalikcopy",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/a3a_StarPatternQuestion_SummitMalik.Pattern02SummitMalikcopy",

@@ -7,7 +7,7 @@ public class SubsetOfnNumbers {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter your Number :");
-		int n = scanner.nextInt();
+		int n = 3;
 		System.out.println("Your Entered Number : " + n);
 		ArrayList<Integer> aList = new ArrayList<>();
 		SubsetOfnNumbers(n, aList);

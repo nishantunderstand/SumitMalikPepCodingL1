@@ -1,11 +1,11 @@
 package b2_RecursionInArray;
 
-import b1_Recursion_ApnaCollege.ArrayDescPrint;
+import b1_Recursion_ApnaCollege.ArrayDescPrint_FirstIndexPassed;
 import b1_Recursion_ApnaCollege.NumberAsecPrint_LowValuesSend;
 
 /**
  * 
- * {@link ArrayDescPrint} 
+ * {@link ArrayDescPrint_FirstIndexPassed} 
  * {@link NumberAsecPrint_LowValuesSend}
  */
 /*

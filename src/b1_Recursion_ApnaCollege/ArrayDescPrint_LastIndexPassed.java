@@ -2,18 +2,13 @@ package b1_Recursion_ApnaCollege;
 
 import java.util.Scanner;
 
-public class ArrayDescPrint2 {
+public class ArrayDescPrint_LastIndexPassed {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the Array Length :");
-		int n = sc.nextInt();
+		Scanner sc = new Scanner(System.in);	
 		System.out.print("Enter the Array elements:");
-		int arr[] = new int[n];
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
-		}
+		int arr[] = {1,2,3,4,5};
 		System.out.println("Array : ");
-		PrintArrayDesc(arr);
+		PrintArrayDesc(arr); // Ignore it.
 		PrintArrayDesc(arr, arr.length - 1);
 
 		sc.close();
@@ -28,11 +23,11 @@ public class ArrayDescPrint2 {
 	}
 
 	private static void PrintArrayDesc(int[] arr, int idx) {
-
 		if (idx < 0) {
 			return;
 		}
 		System.out.print(arr[idx] + "\t"); // Descending Order
+		
 		PrintArrayDesc(arr, idx - 1);
 		// System.out.print(arr[idx] + "\t"); // Ascending Order
 	}

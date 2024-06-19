@@ -8,12 +8,7 @@ public class ArrayPrint2 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Array Length :");
 		int n = sc.nextInt();
-		int arr[] = new int[n];
-		for(int i=0;i<arr.length;i++)
-		{
-			arr[i]=sc.nextInt();
-		}
-		
+		int arr[] = {1,2,3,4,5};
 		displayArr(arr,n);
 		sc.close();
 	}

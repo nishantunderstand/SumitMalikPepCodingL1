@@ -7,7 +7,7 @@ public class FibonacciSeriesPrint {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter No of Term you want to Input :");
-		int n = scanner.nextInt();
+		int n = 7;
 		int a = 0;
 		int b = 1;
 		System.out.println("Your Fibonaaci Numbers:");
