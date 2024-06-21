@@ -1,6 +1,6 @@
 package a7a_String_ScienteachEasy;
 
-import a7a_String_SumitMalik.Student;
+import a7a_String_SumeetMalik.Student;
 
 public class ImmutableDemo {
 	public static void main(String[] args) {

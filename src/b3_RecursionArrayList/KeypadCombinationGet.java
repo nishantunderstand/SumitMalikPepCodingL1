@@ -3,7 +3,7 @@ package b3_RecursionArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import a7a_String_SumitMalik.StringToggleCase;
+import a7a_String_SumeetMalik.StringToggleCase;
 /**
  * 
  * {@link StringToggleCase}
