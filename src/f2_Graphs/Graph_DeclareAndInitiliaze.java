@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * {@link }
  */
 
-public class Graph1_DeclareAndInitiliaze {
+public class Graph_DeclareAndInitiliaze {
 
 	static class Edge {
 		// Member Declare
