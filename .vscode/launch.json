@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HasPath",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/f2_Graphs.HasPath",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "ArrayPrint",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/b1_Recursion_ApnaCollege.ArrayPrint",
