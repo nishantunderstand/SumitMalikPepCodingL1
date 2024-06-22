@@ -2,7 +2,7 @@ package b1_Recursion_ApnaCollege;
 
 import java.util.Scanner;
 
-public class FibonacciSeriesPrint {
+public class FibonacciSeriesPrint2 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -17,14 +17,15 @@ public class FibonacciSeriesPrint {
 		scanner.close();
 	}
 
-	private static void PrintFibonacciSeries(int a, int b, int k) {
-		if (k == 0) {
+	// It doesn't matter, Whether we pass k or n. In both case we will get same result
+	private static void PrintFibonacciSeries(int a, int b, int n) {
+		if (n == 0) {
 			return;
 		}
 
 		int c = a + b;
 		System.out.print(c+" ");
-		PrintFibonacciSeries(b, c, k -1);
+		PrintFibonacciSeries(b, c, n - 1);
 	}
 
 }
