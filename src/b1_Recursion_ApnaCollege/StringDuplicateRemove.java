@@ -2,6 +2,18 @@ package b1_Recursion_ApnaCollege;
 
 import java.util.Arrays;
 
+/**
+ * 
+ * aaaa
+ * 
+ * Single Character
+ * Lower Case
+ * Upper Case
+ * Unique String
+ * No Duplicate Present
+ * 
+ */
+
 public class StringDuplicateRemove {
 	
 	public static boolean[] map = new boolean[26];

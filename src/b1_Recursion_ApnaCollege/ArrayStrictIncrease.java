@@ -8,9 +8,9 @@ public class ArrayStrictIncrease
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the Array Length :");
-		int n = sc.nextInt();
-		int arr[] = {1,2,3,4,5};
+		// System.out.print("Enter the Array Length :");
+		// int n = sc.nextInt();
+		int arr[] = { 1, 2, 3, 4, 5, 1 };
 		System.out.println("Your Entered Arrays : "+Arrays.toString(arr));
 		boolean ans = StrictIncrease(arr,0);
 		System.out.println("Array is Strictly Increasing  : "+ans);
