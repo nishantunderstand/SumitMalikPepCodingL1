@@ -42,6 +42,5 @@ public class InsertionSorting {
 			}
 			System.out.println("Arrays " + i + " : " + Arrays.toString(arr));
 		}
-
 	}
 }

@@ -22,7 +22,7 @@
 - [b4_RecursionOnTheWayUp](src/b4_RecursionOnTheWayUp)
 - [b5_backtracking](src/b5_backtracking)
 - [c1_DynamicProgramming](src/c1_DynamicProgramming)
-- [c2_TimeSpaceComplexitysorting](src/c2_TimeSpaceComplexitysorting)
+- [c2_TimeSpaceComplexitysorting](src/c2_TimeSpaceComplexitysorting/_Sorting.java)
 - [d_OopsSwapPepcoding](src/d_OopsSwapPepcoding)
 - [e1a_Queue](src/e1a_Queue)
 - [e1b_QueueToStack](src/e1b_QueueToStack)

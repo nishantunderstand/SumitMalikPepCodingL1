@@ -17,6 +17,7 @@ public class ArrayPartioning {
 		// i to end -> Element UnIdentifed
 		int i = 0;
 		int j = 0; // <- Tricky Point
+
 		while (i < arr.length) {
 			if (arr[i] > pivot) {
 				i++;
@@ -38,14 +39,6 @@ public class ArrayPartioning {
 	public static void main(String[] args) {
 		System.out.println("Array Partioning:");
 		Scanner sc = new Scanner(System.in);
-		//int n = sc.nextInt();
-		//int arr[] = new int[n];
-		
-		/*+
-		 * for (int i = 0; i < arr.length; i++) { arr[i] = sc.nextInt(); }
-		 */
-		
-		//int pivot = sc.nextInt();
 		int pivot = 5;
 		int arr[] = {7,9,4,8,3,6,2,1};
 		partition(arr, pivot);

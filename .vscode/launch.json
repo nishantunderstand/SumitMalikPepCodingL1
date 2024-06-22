@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayMergeTwoSortedArray2",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/c2_TimeSpaceComplexitysorting.ArrayMergeTwoSortedArray2",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "HasPath",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/f2_Graphs.HasPath",
