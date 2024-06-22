@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
+// You need to work on it Again.
 public class MultiSolver {
 	static class Edge {
 		int src;
@@ -24,18 +25,19 @@ public class MultiSolver {
 	}
 
 	static class Pair implements Comparable<Pair> {
-		String pathSofar;
-		int weightSofar;
+		int wsf;
+		String psf;
 
-		Pair(String psf, int wsf) {
-			pathSofar = psf;
-			weightSofar = wsf;
+		Pair(int wsf, String psf) {
+			this.wsf = wsf;
+			this.psf = psf;
 		}
 
 		@Override
-		public int compareTo(Pair other) {
-			return this.weightSofar - other.weightSofar;
+		public int compareTo(Pair o) {
+			return this.wsf - o.wsf;
 		}
+
 	}
 
 	// Why are we changing to Static ?
@@ -72,10 +74,19 @@ public class MultiSolver {
 		boolean[] visited = new boolean[vtces];
 
 		MultiSolver(graph, src, dest, visited, criteria, k, src + "", 0);
+
+		System.out.println("Smallest Path = " + spath + "@" + spathwt);
+		System.out.println("Largest Path = " + lpath + "@" + lpathwt);
+		System.out.println("Just Larger Path than " + criteria + " = " + cpath + "@" + cpathwt);
+		System.out.println("Just Smaller Path than " + criteria + " = " + fpath + "@" + fpathwt);
+		if (pq.size() >= k) {
+            System.out.println(k + "th largest path = " + pq.peek().psf + "@" + pq.peek().wsf);
+        } else {
+            System.out.println(k + "th largest path = null@0");
+        }
 	}
 
-	public static void MultiSolver(ArrayList<Edge>[] graph, int src, int dest, boolean[] visited, int criteria, int k,
-			String psf, int wsf) {
+	 public static void MultiSolver(ArrayList<Edge>[] graph, int src, int dest, boolean[] visited, int criteria, int k, String psf, int wsf) {
 		if (src == dest) {
 			if (wsf < spathwt) {
 				spathwt = wsf;
@@ -100,7 +111,7 @@ public class MultiSolver {
 		visited[src] = true;
 		for (Edge edge : graph[src]) {
 			if (visited[edge.nbr] == false) {
-				MultiSolver(graph, edge.nbr, dest, visited, wsf, wsf, psf + "-" + edge.nbr, wsf);
+				MultiSolver(graph, edge.nbr, dest, visited, criteria, k, psf + "-" + edge.nbr, wsf + edge.wt);
 
 			}
 		}
