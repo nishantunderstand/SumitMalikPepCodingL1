@@ -14,11 +14,12 @@ User Input idx
 >size IndexOutofBound
 */
 
-public class AddSpecificElementLinkedList {
+public class AddSpecificElementLinkedListNew {
 	public static class Node {
 		int data;
 		Node next;
 	}
+
 	public static class LinkedList {
 		Node head;
 		Node tail;
@@ -84,21 +85,26 @@ public class AddSpecificElementLinkedList {
 				System.out.println("idx==list.size");
 				addElement(list, val);
 			} else {
-				Node node = new Node();				
-				node.data = val;
-
-				// Travessing to find the required Destination
+				Node newNode = new Node();
+				newNode.data = val;
+				//newNode.next =???				
+				// Traverse 
 				Node temp = head;
-				for (int i = 0; i < idx - 1; i++) {
+				for(int i=0;i<idx-1;i++){
 					temp = temp.next;
 				}
-				
-				node.next = temp.next; // Establish the new Connection
-				temp.next = node; // Delete the Old Connection
-				
-				// Increase Size
+				newNode.next = temp.next; // Instablishing the pair
+				temp.next = newNode; // Deleting the Old Linked Pair
 				size++;
 			}
+		}
+		/** 
+		public static int size(){			
+			return list.size;
+		}
+		*/
+		public int size(){
+			return size;
 		}
 	}
 
@@ -109,14 +115,17 @@ public class AddSpecificElementLinkedList {
 		list.addElement(list, 30);
 		list.addElement(list, 40);
 		list.addElement(list, 50);
+		int val = 3333;
+		int idx = 1;
+
 		System.out.println("My LinkedList :");
 		list.display();
-		int val = 3333;
-		int idx = 3;
-		System.out.println("\nVal :" + val + " && idx :" + idx);
+		System.out.println("My LinkedList Size :"+list.size());
+		System.out.println("Val :" + val + " && idx :" + idx);
 		list.addSpecificElement(list, val, idx);
-		System.out.println("My Updated LinkedList :");
+		System.out.println("My Updated LinkedList :");		
 		list.display();
+		System.out.println("My LinkedList Size :"+list.size());
 		sc.close();
 
 	}

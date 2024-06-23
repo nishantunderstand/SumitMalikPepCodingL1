@@ -13,7 +13,7 @@ public class RemoveSpecificIndexLinkedList {
 		Node head;
 		Node tail;
 		int size;
-
+	
 		void addElement(LinkedList list, int val) {
 			Node temp = new Node();
 			temp.data = val;
@@ -28,7 +28,6 @@ public class RemoveSpecificIndexLinkedList {
 			}
 			size++;
 		}
-
 		public void display() {
 			Node temp = head;
 			while (temp != null) {
@@ -78,13 +77,13 @@ public class RemoveSpecificIndexLinkedList {
 			} else if (idx == list.size - 1) {
 				removeLast(list);
 			} else {
+				// Traverse
 				Node temp = head;
 				for (int i = 0; i < idx; i++) {
 					temp = temp.next;
 				}
-				temp.next = temp.next.next;
-				size--;
-
+				temp.next = temp.next.next;				
+				size--; // Size Decrease
 			}
 		}
 	}
