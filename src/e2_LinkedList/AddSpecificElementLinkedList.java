@@ -1,9 +1,20 @@
 package e2_LinkedList;
 
 import java.util.Scanner;
+/** 
+DS LinkedList size 
+<0 Invalid Input
+=0 head tail temp
+>0 
+User Input idx
+<0 Invalid Input
+=0 addFirst
+>0
+=size addLast
+>size IndexOutofBound
+*/
 
 public class AddSpecificElementLinkedList {
-
 	public static class Node {
 		int data;
 		Node next;
@@ -47,7 +58,6 @@ public class AddSpecificElementLinkedList {
 				tail = temp;
 			}
 			size++;
-
 		}
 
 		void addElement(LinkedList list, int val) {
@@ -76,14 +86,15 @@ public class AddSpecificElementLinkedList {
 				addElement(list, val);
 			} else {
 				Node node = new Node();
+				
 				node.data = val;
-
 				Node temp = head;
+				
 				for (int i = 0; i < idx - 1; i++) {
 					temp = temp.next;
 				}
 				node.next = temp.next;
-				temp.next = node;
+				temp.next = node; // Unable to Understand it
 				size++;
 			}
 		}
@@ -98,8 +109,8 @@ public class AddSpecificElementLinkedList {
 		list.addElement(list, 50);
 		System.out.println("My LinkedList :");
 		list.display();
-		int val = 120;
-		int idx = 0;
+		int val = 3333;
+		int idx = 3;
 		System.out.println("\nVal :" + val + " && idx :" + idx);
 		list.addSpecificElement(list, val, idx);
 		System.out.println("My Updated LinkedList :");

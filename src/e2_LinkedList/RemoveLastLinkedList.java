@@ -2,6 +2,10 @@ package e2_LinkedList;
 
 import java.util.Scanner;
 
+/** 
+Corner Cases
+Size 0,1,>1
+*/
 public class RemoveLastLinkedList {
 	public static class Node {
 		int data;
@@ -43,6 +47,12 @@ public class RemoveLastLinkedList {
 				tail = null;
 				size = 0;
 			} else {
+				/**  
+				Iterate and Find the 2nd Last Node.
+				Node Length = list.size;
+				Last Node = list.size-1;
+				2nd Last Node = list.size-2;
+				*/
 				Node temp = head;
 				for (int i = 0; i < list.size - 2; i++) {
 					temp = temp.next;

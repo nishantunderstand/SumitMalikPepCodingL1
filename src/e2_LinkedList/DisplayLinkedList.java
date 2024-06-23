@@ -39,6 +39,7 @@ public class DisplayLinkedList {
 		}
 		public int size(){
 			/**
+			This is wrong. As we have propety to disply it.
 			LinkedList list = new LinkedList();
 			System.out.println(list.size);
 			return list.size;

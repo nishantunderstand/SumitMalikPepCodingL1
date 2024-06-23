@@ -1,9 +1,17 @@
 package e2_LinkedList;
 
 import java.util.Scanner;
+/** 
+DS LinkedList 
+Size 
+<0 Invalid 
+1,>1 Valid 
+Input idx Valid 
+Invalid <0, OutOfIndex
+*/
+
 
 public class GetValueLinkedList {
-
 	public static class Node {
 		int data;
 		Node next;
@@ -90,7 +98,7 @@ public class GetValueLinkedList {
 		int lastelement = list.getLast(list);
 		System.out.println("Last Element :" + lastelement);
 
-		int idx = 0;
+		int idx = 3;
 		int speificelement = list.getAt(list, idx);
 		System.out.println("Specific Element at index is " + idx + " == " + speificelement);
 		sc.close();

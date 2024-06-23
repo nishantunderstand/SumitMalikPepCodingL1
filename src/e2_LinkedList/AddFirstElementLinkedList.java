@@ -35,6 +35,7 @@ public class AddFirstElementLinkedList {
 				System.out.print(temp.data + "-->");
 				temp = temp.next;
 			}
+			System.out.println();
 		}
 
 		public void addFirstElement(LinkedList list, int val) {
@@ -42,9 +43,10 @@ public class AddFirstElementLinkedList {
 			temp.data = val;
 			temp.next = head;
 			head = temp;
-
 			if (list.size == 0) {
-				tail = temp;
+				tail = temp; // More correct
+				// head = tail; // This Implemtation is wrong, When the list is initially empty (i.e., size == 0), you set head to tail instead of setting tail to head.
+				// tail=head; // Correct
 			}
 			size++;
 
@@ -54,13 +56,16 @@ public class AddFirstElementLinkedList {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		LinkedList list = new LinkedList();
+		/**
 		list.addElement(20);
+
 		list.addElement(30);
 		list.addElement(40);
 		list.addElement(50);
+		*/
 		System.out.println("My LinkedList :");
 		list.display();
-		int val = 120;
+		int val = 1210;
 		System.out.println("\nValues Added :" + val);
 		list.addFirstElement(list, val);
 		System.out.println("My Updated LinkedList :");

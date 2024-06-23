@@ -20,6 +20,7 @@ public class AddLastElementLinkedList_InstanceFinal {
 			temp.next = null;
 
 			if (list.size == 0) {
+				// I like this approach more than, Anything else.
 				head = temp;
 				tail = temp;
 			} else {

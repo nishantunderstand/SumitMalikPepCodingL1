@@ -1,7 +1,11 @@
 package e2_LinkedList;
 
 import java.util.Scanner;
-
+/** 
+Corner Cases
+Size 
+0 ,1 ,>1
+*/
 public class RemoveFirstLinkedList {
 
 	public static class Node {
@@ -43,12 +47,17 @@ public class RemoveFirstLinkedList {
 			} else if (list.size == 1) {
 				head = null;
 				tail = null;
-				size = 0;
+				//size = 0;
+				size--; // Both of them valid.
 			} else {
 				head = head.next;
 				size--;
 			}
 
+		}
+
+		public int size() {
+			return size;
 		}
 	}
 
@@ -56,15 +65,18 @@ public class RemoveFirstLinkedList {
 		Scanner sc = new Scanner(System.in);
 		LinkedList list = new LinkedList();
 		list.addElement(list, 20);
+		/** 
 		list.addElement(list, 30);
 		list.addElement(list, 40);
 		list.addElement(list, 50);
+		*/
 		System.out.println("My LinkedList:");
 		list.display();
 		System.out.println("\nRemove 1st From LinkedList:");
 		list.removeFirst(list);
 		System.out.println("My LinkedList:");
 		list.display();
+		System.out.println(list.size());
 		sc.close();
 
 	}

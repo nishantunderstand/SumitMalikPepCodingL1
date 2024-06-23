@@ -27,7 +27,7 @@
 - [e1a_Queue](src/e1a_Queue)
 - [e1b_QueueToStack](src/e1b_QueueToStack)
 - [e1_Stack](src/e1_Stack)
-- [e2_LinkedList](src/e2_LinkedList)
+- [e2_LinkedList](src/e2_LinkedList/_LinkedListBasic.java) June 23
 - [e3_GenericTree](src/e3_GenericTree)
 - [e4_BinaryTree](src/e4_BinaryTree)
 - [e5_BinarySearchTree](src/e5_BinarySearchTree)
@@ -36,3 +36,8 @@
 - [f2_Graphs](src/f2_Graphs)
 - [g1_JavaforCplusplusCoders](src/g1_JavaforCplusplusCoders)
 - [g2_LeetCode](src/g2_LeetCode)
+
+---
+Reason of Creating this. So that i can easily to that coding section.
+Goal is to stop waisting time.
+Focus on essential only.
