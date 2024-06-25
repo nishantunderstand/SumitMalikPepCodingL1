@@ -27,7 +27,7 @@
 - [e1a_Queue](src/e1a_Queue)
 - [e1b_QueueToStack](src/e1b_QueueToStack)
 - [e1_Stack](src/e1_Stack)
-- [e2_LinkedList](src/e2_LinkedList/_LinkedListBasic.java) June 23
+- [e2_LinkedList](src/e2_LinkedList/_LinkedListBasic.java) June 23 - 54-10 Videos/Day 
 - [e3_GenericTree](src/e3_GenericTree)
 - [e4_BinaryTree](src/e4_BinaryTree)
 - [e5_BinarySearchTree](src/e5_BinarySearchTree)

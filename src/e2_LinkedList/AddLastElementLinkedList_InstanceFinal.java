@@ -15,6 +15,7 @@ public class AddLastElementLinkedList_InstanceFinal {
 		int size;
 
 		public void addLastElement(LinkedList list, int val) {
+
 			Node temp = new Node();
 			temp.data = val;
 			temp.next = null;
@@ -27,6 +28,7 @@ public class AddLastElementLinkedList_InstanceFinal {
 				tail.next = temp;
 				tail = temp;
 			}
+			
 			size++;
 		}
 

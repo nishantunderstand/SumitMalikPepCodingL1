@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KNodeFromEndWithSize",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.KNodeFromEndWithSize",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "KNodeFromEnd_WithoutSize",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.KNodeFromEnd_WithoutSize",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "AddSpecificElementLinkedListNew",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/e2_LinkedList.AddSpecificElementLinkedListNew",

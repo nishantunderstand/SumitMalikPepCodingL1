@@ -9,8 +9,10 @@ public class StringSubSequence {
 			return;
 		}
 		char currChar = str.charAt(idx);
-		// Want to come
+		
+		// Want to come		
 		SubSequenceString(str, idx + 1, newString + currChar);
+		
 		// Don't Want to come
 		SubSequenceString(str, idx + 1, newString);
 	}

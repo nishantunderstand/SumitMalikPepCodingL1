@@ -2,7 +2,7 @@ package e2_LinkedList;
 
 import java.util.Scanner;
 
-public class ReverseLinkedListDataIterative {
+public class ReverseLinkedList_PointerIterative {
 
 	public static class Node {
 		int data;
@@ -37,27 +37,20 @@ public class ReverseLinkedListDataIterative {
 			}
 		}
 
-		public Node getNodeAt(int idx) {
+		public void reversePointerIterative(LinkedList list) {
+			Node prev = null;
+			Node curr = head;
+			while (curr != null) {
+				Node next = curr.next;
+
+				curr.next = prev;
+
+				prev = curr;
+				curr = next;
+			}
 			Node temp = head;
-			for (int i = 0; i < idx; i++) {
-				temp = temp.next;
-			}
-			return temp;
-		}
-
-		public void reverseDataIterative(LinkedList list) {
-			int li = 0;
-			int ri = list.size - 1;
-
-			while (li < ri) {
-				Node left = getNodeAt(li);
-				Node right = getNodeAt(ri);
-				int temp = left.data;
-				left.data = right.data;
-				right.data = temp;
-				li++;
-				ri--;
-			}
+			head = tail;
+			tail = head;
 		}
 	}
 
@@ -72,7 +65,7 @@ public class ReverseLinkedListDataIterative {
 		System.out.println("My LinkedList size :" + list.size);
 		System.out.println("My LinkedList :");
 		list.display();
-		list.reverseDataIterative(list);
+		list.reversePointerIterative(list);
 		System.out.println("\nMy Updated LinkedList :");
 		list.display();
 		sc.close();
