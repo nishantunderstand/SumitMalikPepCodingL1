@@ -1,6 +1,6 @@
 package e2_LinkedList;
 
-public class KNodeFromEndWithSize {
+public class KNodeFromEnd_WithOutSize {
 
     public static class Node{
         int data;
@@ -53,7 +53,7 @@ public class KNodeFromEndWithSize {
             System.out.println("null");
         }
         
-        public void kthNodeFromLast_WithLoop(LinkedList list,int idx) throws Exception{
+        public void kthNodeFromLast_WithOutLoop(LinkedList list,int idx) throws Exception{
             /** idx 
             <0 Error
             0 
@@ -71,42 +71,23 @@ public class KNodeFromEndWithSize {
             Advise : Never Try to do more than one things in a for Loops.
             You need to find the result than proceed further.
             */
-            
-            int valPrsent = 0;
+
             if (idx < 0 || idx > list.size || list.size < 0) {
                 throw new Exception("Invalid Input");
             }
-
-    
-            int len=0;
-            Node temp = head;
-
-            while(temp!=null){
-                temp= temp.next;
-                len++;
-            }
-
-            if(len<idx){
-                return;
-            }
-
             
-            Node temp1 = head;
-            int listSize = list.size;
-            int target= listSize-idx;
-            int target2 = len - idx;
-            // Doing it in One Line is the Issue, 
-            // for(int i=0;i<list.size()-idx+1;i++)
+			Node slow = head;
+			Node fast = head;
+			int gap = idx;
+			for (int i = 0; i < gap; i++) {
+				fast = fast.next;
+			}
 
-            for(int i=0;i<target;i++){
-                temp1 = temp1.next;
-
-            }
-            if (temp1 != null) {
-                System.out.println("Value is  :"+temp1.data);
-            } else {
-                throw new Exception("Node is null");
-            }
+			while (fast != null) {
+				fast = fast.next;
+				slow = slow.next;
+			}
+			System.out.println("Your Index is : " + slow.data);
         }
     }
 
@@ -119,42 +100,8 @@ public class KNodeFromEndWithSize {
         list.addLast(list, 4);
         list.addLast(list, 5);
         list.display(list);
-        int idx=1;
+		int idx = 3;
         System.out.println("Index From End :"+idx);
-        list.kthNodeFromLast_WithLoop(list,idx);
-        // This method should be declared in linkedlist method
-        // While accessing from outside it will generate error
-        
-    }
-
-
-    /**
-    private static int kthNodeFromLast_WithLoop(LinkedList list,int idx) throws Exception {
-        idx 
-        <0 = Error
-        =0 
-        1,>1 
-            <size
-            >size = Error
-        
-        
-        head = tail , null
-        
-        int dataPresent=0;
-
-        if(idx<0||idx>list.size()){
-            throw new Exception("Unimplemented method 'kthNodeFromLast'");
-        } 
-
-        Node temp = new Node();
-        head = temp;
-
-        for (int i = 0; i < idx; i++) {
-            temp = temp.next;
-        }
-      
-        return temp.data;
-    }
-    */
-    
+		list.kthNodeFromLast_WithOutLoop(list, idx);
+    } 
 }

@@ -1,6 +1,6 @@
 package e2_LinkedList;
 
-public class KNodeFromEndWithOutSize {
+public class KNodeFromEnd_WithSize {
 
     public static class Node{
         int data;
@@ -53,7 +53,7 @@ public class KNodeFromEndWithOutSize {
             System.out.println("null");
         }
         
-        public void kthNodeFromLast_WithOutLoop(LinkedList list,int idx) throws Exception{
+        public void kthNodeFromLast_WithLoop(LinkedList list,int idx) throws Exception{
             /** idx 
             <0 Error
             0 
@@ -121,6 +121,40 @@ public class KNodeFromEndWithOutSize {
         list.display(list);
         int idx=1;
         System.out.println("Index From End :"+idx);
-        list.kthNodeFromLast_WithOutLoop(list,idx);                
-    } 
+        list.kthNodeFromLast_WithLoop(list,idx);
+        // This method should be declared in linkedlist method
+        // While accessing from outside it will generate error
+        
+    }
+
+
+    /**
+    private static int kthNodeFromLast_WithLoop(LinkedList list,int idx) throws Exception {
+        idx 
+        <0 = Error
+        =0 
+        1,>1 
+            <size
+            >size = Error
+        
+        
+        head = tail , null
+        
+        int dataPresent=0;
+
+        if(idx<0||idx>list.size()){
+            throw new Exception("Unimplemented method 'kthNodeFromLast'");
+        } 
+
+        Node temp = new Node();
+        head = temp;
+
+        for (int i = 0; i < idx; i++) {
+            temp = temp.next;
+        }
+      
+        return temp.data;
+    }
+    */
+    
 }
