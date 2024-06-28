@@ -60,6 +60,14 @@ public class MergeSorting {
 		return fsa;
 	}
 
+	/**
+	 * It is based on Divide and Conquer Approach.
+	 * Find the mid
+	 * Sort the First Sorted Half (FSH) , SSH
+	 * When it size is Zero, Treat as one unit. Then return as one.
+	 * Then Call MergeSort Code
+	 */
+
 	private static int[] ArrayMergeTwoSorted(int[] arr1, int[] arr2) {
 		int i = 0;
 		int j = 0;

@@ -1,6 +1,8 @@
 
 package e2_LinkedList;
 
+// Read about LinkedList From TUF
+
 public class MergeSortedLinked {
 
 	/**
@@ -11,6 +13,14 @@ public class MergeSortedLinked {
 	public static class Node {
 		int data;
 		Node next;
+
+		Node() {
+
+		}
+
+		Node(int data) {
+			this.data = data;
+		}
 	}
 
 	public static class LinkedList {
@@ -57,39 +67,84 @@ public class MergeSortedLinked {
 			}
 			System.out.println("null");
 		}
-/**
+
 		public Node midNode(Node head, Node tail) {
 
 			Node slow = head;
 			Node fast = head;
+
 			while (fast != null && fast.next != null) {
 				slow = slow.next;
 				fast = fast.next.next;
 			}
 			System.out.println("Mid of LinkedList :" + slow.data);
+			return slow;
 		}
-		
+
 		public LinkedList mergeSort(Node head, Node tail) {
+			if (head == tail) {
+				LinkedList br = new LinkedList();
+				br.addLast(br, head.data);
+				return br;
+
+			}
 			Node mid = midNode(head, tail);
 			LinkedList fsh = mergeSort(head, mid);
 			LinkedList ssh = mergeSort(mid.next, tail);
-			// LinkedList fsh = mergeSort(mid.next, tail);
+			LinkedList fsa = mergeSortByLinkedList(mid.next, tail);
+
+			return fsa;
+
+		}
+
+		public static LinkedList mergeSortByLinkedList(Node list1, Node list2) {
+			Node dummyNode = new Node(-1);
+			Node temp = dummyNode;
+
+			while (list1 != null && list2 != null) {
+
+				if (list1.data <= list2.data) {
+					temp.next = list1;
+					list1 = list1.next;
+				} else {
+					temp.next = list2;
+					list2 = list2.next;
+				}
+				temp = temp.next;
+			}
+
+			if (list1 != null) {
+				temp.next = list1;
+			} else {
+				temp.next = list2;
+			}
+
+			System.out.println("Dummy Node :");
+			printLinkedList(dummyNode);
+			// return dummyNode.next;
+			return null;
+		}
+
+		public static void main(String[] args) throws Exception {
+			LinkedList list = new LinkedList();
+			list.addLast(list, 1);
+			list.addLast(list, 2);
+			list.addLast(list, 3);
+			list.addLast(list, 4);
+			list.addLast(list, 5);
+			list.addLast(list, 6);
+			list.display(list);
+
 		}
 
 	}
-	*/
 
-	public static void main(String[] args) throws Exception {
-		LinkedList list = new LinkedList();
-		list.addLast(list, 1);
-		list.addLast(list, 2);
-		list.addLast(list, 3);
-		list.addLast(list, 4);
-		list.addLast(list, 5);
-		list.addLast(list, 6);
-		list.display(list);
-
-
+	static void printLinkedList(Node head) {
+		Node temp = head;
+		while (temp != null) {
+			System.out.print(temp.data + " ");
+			temp = temp.next;
+		}
+		System.out.println();
 	}
-}
 }
