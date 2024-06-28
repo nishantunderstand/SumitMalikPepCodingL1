@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDuplicate_SummetMalik",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.RemoveDuplicate_SummetMalik",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.RemoveDuplicate",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListToArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.LinkedListToArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicateInArray_InPlace",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.RemoveDuplicateInArray_InPlace",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicateInArray",
+            "request": "launch",
+            "mainClass": "SumitMalikPepCoding/e2_LinkedList.RemoveDuplicateInArray",
+            "projectName": "SumitMalikPepCodingL1"
+        },
+        {
+            "type": "java",
             "name": "KNodeFromEndWithSize",
             "request": "launch",
             "mainClass": "SumitMalikPepCoding/e2_LinkedList.KNodeFromEndWithSize",

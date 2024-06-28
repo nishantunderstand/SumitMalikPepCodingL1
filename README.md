@@ -41,3 +41,7 @@
 Reason of Creating this. So that i can easily to that coding section.
 Goal is to stop waisting time.
 Focus on essential only.
+
+---
+Hard Reset Git Master
+git reset --hard origin/master
