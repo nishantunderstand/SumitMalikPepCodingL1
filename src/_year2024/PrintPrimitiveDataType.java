@@ -11,6 +11,7 @@ public class PrintPrimitiveDataType {
 		char ch = str.charAt(0);
 		//System.out.println((ch).getClass().getName());
 		System.out.println(((Object)ch).getClass().getName());
+		System.out.println("Is this working is my Local!!!");
 		
 	}
 
